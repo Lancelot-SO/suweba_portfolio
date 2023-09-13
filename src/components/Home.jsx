@@ -25,15 +25,14 @@ function Home() {
             over the world. Currently, I love to use Figma and Adobe Photoshop
             for my projects.
           </p>
-          <button
-            className="group w-fit px-6 py-3 my-2 flex items-center cursor-pointer
-          rounded-md bg-gradient-to-r from-yellow-100 to-yellow-500"
-          >
-            Projects
-            <span className="group-hover:rotate-90 duration-300">
-              <BsArrowRight size={25} className="ml-1" />
-            </span>
-          </button>
+          <a to="/projects">
+            <button className="group w-fit px-6 py-3 my-2 flex items-center cursor-pointer rounded-md bg-gradient-to-r from-yellow-100 to-yellow-500 hover:scale-105">
+              Projects
+              <span className="group-hover:rotate-90 duration-300">
+                <BsArrowRight size={25} className="ml-1" />
+              </span>
+            </button>
+          </a>
         </div>
         <div>
           <img
