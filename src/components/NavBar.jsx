@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import heroImage from "../assets/heroImage.png";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
@@ -10,16 +11,24 @@ function NavBar() {
     {
       id: 1,
       link: "projects",
+      href: "/projects",
     },
     {
       id: 2,
       link: "about",
+      href: "/about",
     },
   ];
+
+  const closeMenu = () => {
+    setNav(false);
+  };
+
   return (
     <div
-      className="flex justify-between items-center w-full h-20
-    text-white bg-blue-950 fixed px-4"
+      className={`flex justify-between items-center w-full h-20 text-white bg-blue-950 fixed px-4 ${
+        nav ? "bg-opacity-90" : ""
+      }`}
     >
       <div className="flex flex-row gap-2">
         <a href="/" className="flex flex-row gap-2">
@@ -37,21 +46,33 @@ function NavBar() {
         </a>
       </div>
       <ul className="md:flex hidden">
-        {links.map(({ id, link }) => (
+        {links.map(({ id, link, href }) => (
           <li
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-yellow-500 hover:scale-105 duration-200"
           >
-            {link}
+            <Link to={href}>{link}</Link>
           </li>
         ))}
       </ul>
       <ul className="hidden md:flex flex-row">
         <li className="px-4 text-yellow-500 cursor-pointer hover:scale-105 duration-200">
-          <BsLinkedin />
+          <a
+            href="https://www.linkedin.com/in/felix-sowah/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsLinkedin />
+          </a>
         </li>
         <li className="text-yellow-500 cursor-pointer hover:scale-105 duration-200">
-          <BsGithub />
+          <a
+            href="https://github.com/Lancelot-SO/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsGithub />
+          </a>
         </li>
       </ul>
       <div
@@ -70,12 +91,14 @@ function NavBar() {
         absolute top-0 left-0 w-full h-screen bg-gradient-to-b
         from-black to-blue-900 text-yellow-500"
         >
-          {links.map(({ id, link }) => (
+          {links.map(({ id, link, href }) => (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              {link}
+              <Link to={href} onClick={closeMenu}>
+                {link}
+              </Link>
             </li>
           ))}
         </ul>
