@@ -4,12 +4,12 @@ import ProjectDetails from "./ProjectDetails";
 
 const Projects = () => {
   return (
-    <div className="bg-blue-900 w-full text-white md:h-4/5 pt-16">
+    <div className="bg-white w-full text-orange-500 md:h-4/5 pt-16">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p
             className="text-4xl font-bold inline border-b-4
-          border-gray-500"
+          border-orange-500"
           >
             Projects
           </p>
