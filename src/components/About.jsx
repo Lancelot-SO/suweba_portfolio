@@ -1,11 +1,11 @@
 import React from "react";
 import { GrMail } from "react-icons/gr";
 import { BsLinkedin } from "react-icons/bs";
-import resumePDF from "../assets/Felix_Sowah-resume.pdf";
+import resumePDF from "../assets/Resume.pdf";
 import HeroImage from "../assets/heroImage.png";
 
 function About() {
-  const email = "fsowah001@gmail.com";
+  const email = "sidikialare@gmail.com";
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
@@ -18,10 +18,7 @@ function About() {
   };
 
   return (
-    <div
-      className="h-screen w-full bg-gradient-to-b from-black  
-    to-blue-900 text-white"
-    >
+    <div className="h-screen w-full bg-white text-orange-500">
       <div
         className="max-w-screen-lg mx-auto flex flex-col
       items-center justify-center h-full px-4 md:flex-row py-5"
@@ -38,16 +35,17 @@ function About() {
 
         {/* Text */}
         <div className="md:w-1/2 p-4">
-          <h1 className="text-2xl font-bold mb-4">Hello, I'm Suweba 😊👋</h1>
+          <h1 className="text-2xl font-bold mb-4">
+            Hello, I am Sidiki Alare 😊👋
+          </h1>
           <p>
-            I have 10 years of experience designing projects for clients all
-            over the world. Currently, I love to use Figma and Adobe Photoshop
-            for my projects.
-          </p>
-          <p>
-            I have 10 years of experience designing projects for clients all
-            over the world. Currently, I love to use Figma and Adobe Photoshop
-            for my projects.
+            I'm a student with a passion for UX design and a background in
+            Customer Experience (CX). My journey in the world of user-centric
+            design began with a deep fascination for the way technology and
+            human interactions intertwine. Now, I'm eager to apply my CX
+            expertise to enhance digital experiences. Join me as I explore the
+            art of creating intuitive, user-friendly interfaces and forging
+            memorable connections between people and technology.
           </p>
           <ul className="mt-4 flex justify-between items-center">
             <li className="mr-3 flex flex-row gap-4">
@@ -56,16 +54,20 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GrMail size={30} className="text-yellow-500 mt-1" />
+                <GrMail size={30} className="text-orange-500 mt-1" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <BsLinkedin size={25} className="text-yellow-500 mt-1" />
+              <a
+                href="https://www.linkedin.com/in/sidikialare/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsLinkedin size={25} className="text-orange-500 mt-1" />
               </a>
             </li>
             <li>
               <button
                 onClick={handleDownloadCV}
-                className="bg-gradient-to-r from-yellow-100 to-yellow-500 text-white px-4 py-2"
+                className="bg-gradient-to-r from-orange-100 to-orange-500 text-white px-4 py-2"
               >
                 Get Resume
               </button>
