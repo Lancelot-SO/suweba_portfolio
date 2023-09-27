@@ -52,11 +52,15 @@ const ProjectDetails = ({ item }) => {
               X
             </button>
             <h2 className="text-2xl font-semibold">{item.title}</h2>
+            <p>{item.description}</p>
             <div className="mt-2 rounded-md max-w-full">
               <img src={item.src} alt={item.title} className="w-full h-auto" />
+              <img src={item.src1} alt={item.title} className="w-full h-auto" />
               <img src={item.src2} alt={item.title} className="w-full h-auto" />
               <img src={item.src3} alt={item.title} className="w-full h-auto" />
               <img src={item.src4} alt={item.title} className="w-full h-auto" />
+              <img src={item.src5} alt={item.title} className="w-full h-auto" />
+              <img src={item.src6} alt={item.title} className="w-full h-auto" />
             </div>
           </div>
         </div>
