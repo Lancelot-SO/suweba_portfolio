@@ -1,14 +1,14 @@
 import React from "react";
-import heroImage from "../assets/Sidiki-Logo.jpg";
+import heroImage from "../assets/sidiki-logo.svg";
 
 function Footer() {
   return (
     <div className="px-4 py-8 bg-white">
-      <div className="flex items-center gap-2">
+      <div className="flex items-center">
         <img
           src={heroImage}
           className="rounded-md"
-          width={90}
+          width={135}
           height={90}
           alt="logo"
         />

@@ -8,7 +8,12 @@ import rectangle2 from "./assets/img/rectangle-2.png";
 import rectangle3 from "./assets/img/rectangle-3.png";
 import rectangle4 from "./assets/img/rectangle-4.png";
 import rectangle5 from "./assets/img/rectangle-5.png";
-
+import homepage2 from "./assets/img/Homepage2.png";
+import menu from "./assets/img/Menu.png";
+import profile from "./assets/img/Profile2.png";
+import transfer from "./assets/img/Transfer.png";
+import transfer1 from "./assets/img/Transfer1.png";
+import notification from "./assets/img/Notification.png";
 // upload all the images where and change them in the projectData array
 // by changing the project2, project1, project4 to thename of the image i upload
 
@@ -27,11 +32,13 @@ export const projectsData = [
   },
   {
     id: "2",
-    src: rectangle1,
-    src2: project2,
-    src3: project4,
-    src4: project1,
-    title: "Project 2",
+    src: homepage2,
+    src1: profile,
+    src2: menu,
+    src3: transfer,
+    src4: transfer1,
+    src5: notification,
+    title: "Mobile Banking App",
     description: "Description of Project 2.",
   },
   {
