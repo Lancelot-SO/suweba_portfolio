@@ -24,17 +24,15 @@ const ProjectDetails = ({ item }) => {
         <img
           src={item.src}
           alt=""
+          onClick={openPopup}
           className="rounded-md duration-200 hover:scale-105 cursor-pointer"
         />
         <div className="flex flex-col items-center justify-center">
-          <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-yellow-500">
-            {item.title}
-          </button>
           <button
-            className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-yellow-500"
             onClick={openPopup}
+            className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-yellow-500"
           >
-            Details
+            {item.title}
           </button>
         </div>
       </div>

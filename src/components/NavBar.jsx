@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import heroImage from "../assets/Sidiki-Logo.jpg";
+import heroImage from "../assets/sidiki-logo.svg";
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -31,11 +31,11 @@ function NavBar() {
       }`}
     >
       <div className="flex flex-row gap-2">
-        <a href="/" className="flex flex-row gap-2">
+        <a href="/" className="flex flex-row">
           <img
             src={heroImage}
             className="rounded-md"
-            width={90}
+            width={135}
             height={64}
             alt="logo"
           />
