@@ -13,11 +13,9 @@ function Footer() {
           alt="logo"
         />
 
-        <h1 className="text-orange-500 text-3xl font-signature">
-          Sidiki Alare
-        </h1>
+        <h1 className="text-blue-500 text-3xl font-signature">Sidiki Alare</h1>
       </div>
-      <p className="mt-2 text-orange-500 pt-4">
+      <p className="mt-2 text-blue-500 pt-4">
         © 2023. All Rights Reserved to Suweba.
       </p>
     </div>

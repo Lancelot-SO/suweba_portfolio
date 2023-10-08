@@ -38,6 +38,7 @@ export const projectsData = [
     src3: transfer,
     src4: transfer1,
     src5: notification,
+    src6: transfer,
     title: "Mobile Banking App",
     description: "Description of Project 2.",
   },

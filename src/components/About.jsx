@@ -18,7 +18,7 @@ function About() {
   };
 
   return (
-    <div className="h-screen w-full bg-white text-orange-500">
+    <div className="h-screen w-full bg-white text-blue-500">
       <div
         className="max-w-screen-lg mx-auto flex flex-col
       items-center justify-center h-full px-4 md:flex-row py-5"
@@ -54,20 +54,20 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GrMail size={30} className="text-orange-500 mt-1" />
+                <GrMail size={30} className="text-blue-500 mt-1" />
               </a>
               <a
                 href="https://www.linkedin.com/in/sidikialare/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <BsLinkedin size={25} className="text-orange-500 mt-1" />
+                <BsLinkedin size={25} className="text-blue-500 mt-1" />
               </a>
             </li>
             <li>
               <button
                 onClick={handleDownloadCV}
-                className="bg-gradient-to-r from-orange-100 to-orange-500 text-white px-4 py-2"
+                className="bg-gradient-to-r bg-blue-500 text-white px-4 py-2"
               >
                 Get Resume
               </button>
