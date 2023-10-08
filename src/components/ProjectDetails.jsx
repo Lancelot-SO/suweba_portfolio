@@ -44,7 +44,7 @@ const ProjectDetails = ({ item }) => {
         >
           <div className="bg-white p-4 rounded-md max-w-screen-md w-full h-full md:mx-auto md:my-auto overflow-y-auto">
             <button
-              className="absolute top-2 right-2 px-2 py-1 bg-blue-500 text-white hover:text-gray-900 rounded-full"
+              className="absolute top-2 right-2 px-2 py-1 bg-custom-blue text-white hover:text-gray-900 rounded-full"
               onClick={closePopup}
             >
               X

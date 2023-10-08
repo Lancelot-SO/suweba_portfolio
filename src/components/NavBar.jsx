@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import heroImage from "../assets/sidiki-logo.svg";
+import heroImage from "../assets/lg1.svg";
 import { Link } from "react-router-dom";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
+  const [activeLink, setActiveLink] = useState(null);
+  const navRef = useRef(null);
 
   const links = [
     {
@@ -24,9 +26,14 @@ function NavBar() {
     setNav(false);
   };
 
+  const handleLinkClick = (index) => {
+    setActiveLink(index);
+    closeMenu();
+  };
+
   return (
     <div
-      className={`flex justify-between items-center w-full h-20 text-blue-500 bg-white border-b-2 fixed px-4 ${
+      className={`flex justify-between items-center w-full h-20 text-custom-blue bg-white border-b-2 fixed px-4 ${
         nav ? "bg-opacity-90" : ""
       }`}
     >
@@ -35,28 +42,32 @@ function NavBar() {
           <img
             src={heroImage}
             className="rounded-md"
-            width={135}
-            height={64}
+            width={48}
+            height={32}
             alt="logo"
           />
 
-          <h1 className="flex items-center justify-center text-blue-500 text-3xl font-signature pt-2">
+          <h1 className="flex items-center justify-center text-custom-blue text-3xl font-signature pt-2">
             Sidiki Alare
           </h1>
         </a>
       </div>
       <ul className="md:flex hidden">
-        {links.map(({ id, link, href }) => (
+        {links.map(({ id, link, href }, index) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-blue-500 hover:scale-105 duration-200"
+            className={`px-4 cursor-pointer capitalize font-medium text-custom-blue hover:scale-105 duration-200 ${
+              activeLink === index ? "border-b-2 border-custom-blue" : ""
+            }`}
           >
-            <Link to={href}>{link}</Link>
+            <Link to={href} onClick={() => handleLinkClick(index)}>
+              {link}
+            </Link>
           </li>
         ))}
       </ul>
       <ul className="hidden md:flex flex-row">
-        <li className="px-4 text-blue-500 cursor-pointer hover:scale-105 duration-200">
+        <li className="px-4 text-custom-blue cursor-pointer hover:scale-105 duration-200">
           <a
             href="https://www.linkedin.com/in/sidikialare/"
             target="_blank"
@@ -65,7 +76,7 @@ function NavBar() {
             <BsLinkedin />
           </a>
         </li>
-        <li className="text-blue-500 cursor-pointer hover:scale-105 duration-200">
+        <li className="text-custom-blue cursor-pointer hover:scale-105 duration-200">
           <a
             href="https://github.com/Lancelot-SO/"
             target="_blank"
@@ -80,22 +91,19 @@ function NavBar() {
         className="cursor-pointer pr-4 z-10 md:hidden"
       >
         {nav ? (
-          <FaTimes className="text-blue-500" size={30} />
+          <FaTimes className="text-custom-blue" size={30} />
         ) : (
-          <FaBars className="text-blue-500" size={30} />
+          <FaBars className="text-custom-blue" size={30} />
         )}
       </div>
       {nav && (
-        <ul
-          className="flex flex-col justify-center items-center
-        absolute top-0 left-0 w-full h-screen bg-white text-blue-500"
-        >
-          {links.map(({ id, link, href }) => (
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-white text-custom-blue">
+          {links.map(({ id, link, href }, index) => (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              <Link to={href} onClick={closeMenu}>
+              <Link to={href} onClick={() => handleLinkClick(index)}>
                 {link}
               </Link>
             </li>

@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/sidiki-logo.svg";
+import heroImage from "../assets/lg1.svg";
 
 function Footer() {
   return (
@@ -8,14 +8,16 @@ function Footer() {
         <img
           src={heroImage}
           className="rounded-md"
-          width={135}
-          height={90}
+          width={48}
+          height={32}
           alt="logo"
         />
 
-        <h1 className="text-blue-500 text-3xl font-signature">Sidiki Alare</h1>
+        <h1 className="text-custom-blue text-3xl font-signature">
+          Sidiki Alare
+        </h1>
       </div>
-      <p className="mt-2 text-blue-500 pt-4">
+      <p className="mt-2 text-custom-blue pt-4">
         © 2023. All Rights Reserved to Suweba.
       </p>
     </div>
