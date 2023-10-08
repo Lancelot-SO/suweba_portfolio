@@ -26,7 +26,7 @@ function NavBar() {
 
   return (
     <div
-      className={`flex justify-between items-center w-full h-20 text-orange-500 bg-white border-b-2 fixed px-4 ${
+      className={`flex justify-between items-center w-full h-20 text-blue-500 bg-white border-b-2 fixed px-4 ${
         nav ? "bg-opacity-90" : ""
       }`}
     >
@@ -40,7 +40,7 @@ function NavBar() {
             alt="logo"
           />
 
-          <h1 className="flex items-center justify-center text-orange-500 text-3xl font-signature pt-2">
+          <h1 className="flex items-center justify-center text-blue-500 text-3xl font-signature pt-2">
             Sidiki Alare
           </h1>
         </a>
@@ -49,14 +49,14 @@ function NavBar() {
         {links.map(({ id, link, href }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-orange-500 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize font-medium text-blue-500 hover:scale-105 duration-200"
           >
             <Link to={href}>{link}</Link>
           </li>
         ))}
       </ul>
       <ul className="hidden md:flex flex-row">
-        <li className="px-4 text-orange-500 cursor-pointer hover:scale-105 duration-200">
+        <li className="px-4 text-blue-500 cursor-pointer hover:scale-105 duration-200">
           <a
             href="https://www.linkedin.com/in/sidikialare/"
             target="_blank"
@@ -65,7 +65,7 @@ function NavBar() {
             <BsLinkedin />
           </a>
         </li>
-        <li className="text-orange-500 cursor-pointer hover:scale-105 duration-200">
+        <li className="text-blue-500 cursor-pointer hover:scale-105 duration-200">
           <a
             href="https://github.com/Lancelot-SO/"
             target="_blank"
@@ -80,15 +80,15 @@ function NavBar() {
         className="cursor-pointer pr-4 z-10 md:hidden"
       >
         {nav ? (
-          <FaTimes className="text-orange-500" size={30} />
+          <FaTimes className="text-blue-500" size={30} />
         ) : (
-          <FaBars className="text-orange-500" size={30} />
+          <FaBars className="text-blue-500" size={30} />
         )}
       </div>
       {nav && (
         <ul
           className="flex flex-col justify-center items-center
-        absolute top-0 left-0 w-full h-screen bg-white text-orange-500"
+        absolute top-0 left-0 w-full h-screen bg-white text-blue-500"
         >
           {links.map(({ id, link, href }) => (
             <li
