@@ -4,19 +4,19 @@ import ProjectDetails from "./ProjectDetails";
 
 const Projects = () => {
   return (
-    <div className="bg-white w-full text-custom-blue md:h-4/5 pt-16">
+    <div className="bg-white w-full text-black md:h-4/5 pt-16">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p
             className="text-4xl font-bold inline border-b-4
-          border-custom-blue"
+          border-black"
           >
             Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
         <div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 px-4 sm:px-0">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-4 sm:px-0">
             {projectsData.map((item) => {
               return <ProjectDetails key={item.id} item={item} />;
             })}

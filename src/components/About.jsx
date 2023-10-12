@@ -18,7 +18,7 @@ function About() {
   };
 
   return (
-    <div className="h-screen w-full bg-white text-custom-blue">
+    <div className="h-screen w-full bg-white text-black">
       <div
         className="max-w-screen-lg mx-auto flex flex-col
       items-center justify-center h-full px-4 md:flex-row py-5"
@@ -48,26 +48,34 @@ function About() {
             memorable connections between people and technology.
           </p>
           <ul className="mt-4 flex justify-between items-center">
-            <li className="mr-3 flex flex-row gap-4">
+            <li className="mr-3 flex flex-row gap-4 ">
               <a
                 href={`mailto:${email}`}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="border-blue-500 border rounded-full p-2 hover:bg-custom-blue duration-200"
               >
-                <GrMail size={30} className="text-custom-blue mt-1" />
+                <GrMail
+                  size={30}
+                  className="text-custom-blue mt-1 hover:text-white"
+                />
               </a>
               <a
                 href="https://www.linkedin.com/in/sidikialare/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="border-blue-500 border rounded-md p-2 hover:bg-custom-blue duration-200"
               >
-                <BsLinkedin size={25} className="text-custom-blue mt-1" />
+                <BsLinkedin
+                  size={25}
+                  className="text-custom-blue mt-1 hover:text-white"
+                />
               </a>
             </li>
             <li>
               <button
                 onClick={handleDownloadCV}
-                className="bg-gradient-to-r bg-custom-blue text-white px-4 py-2"
+                className="border border-blue-500 bg-white text-black px-4 py-2 rounded-full hover:bg-custom-blue hover:text-white duration-200"
               >
                 Get Resume
               </button>
