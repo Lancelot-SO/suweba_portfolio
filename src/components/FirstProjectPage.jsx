@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/img/Homepage.png";
+import Persona from "../assets/hero.jpg";
 import { BsPersonCircle } from "react-icons/bs";
 import { AiFillStar, AiOutlineMenu } from "react-icons/ai";
 import { PiWarningCircleFill } from "react-icons/pi";
@@ -180,8 +181,279 @@ const FirstProjectPage = () => {
             </div>
           </div>
         </div>
-        <div></div>
-        <div></div>
+        <div className="flex flex-row pt-20">
+          <div className="w-1/3 pr-8">
+            <h1 className="text-2xl flex flex-row gap-4 font-bold text-gray-500 pt-4 pb-16">
+              Persona: <span className="text-black">Atul</span>
+            </h1>
+            <span className="text-red-500">Problem statement:</span>
+            <p className="text-justify text-md leading-relaxed pt-4 text-gray-500">
+              Atul is a busy seamstress who needs ways to simply and quickly
+              send to her supplier because visiting her financial institution is
+              time consuming for her. Atul is skeptical in using payment apps
+              because she is concerned about the security of these apps.
+            </p>
+          </div>
+          <div class="w-2/3 p-4">
+            <div class="flex items-start flex-col">
+              <div className="flex flex-col">
+                <div class="mr-4 flex items-center">
+                  <div className="border-4 border-yellow-500 p-2">
+                    <img src={Persona} alt="sec" className=" w-40 h-30" />
+                  </div>
+                  <span class="mt-12 ml-16 flex items-center text-gray-500">
+                    “Changing the narrative through fashion”
+                  </span>
+                </div>
+                <table class="mt-4 ml-16">
+                  <tr>
+                    <td class="font-bold">Age:</td>
+                    <td className="text-gray-500">23</td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold">Education:</td>
+                    <td className="text-gray-500">College</td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold">Hometown:</td>
+                    <td className="text-gray-500">Accra, Gh.</td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold">Family:</td>
+                    <td className="text-gray-500">Single</td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold">Occupation:</td>
+                    <td className="text-gray-500">Tailor</td>
+                  </tr>
+                </table>
+              </div>
+
+              <div className="flex flex-row gap-4">
+                <div>
+                  <span className="text-gray-500 font-bold">Goals:</span>
+                  <ul className="list-disc ml-8 text-gray-500">
+                    <li>Instantly send funds</li>
+                    <li>
+                      To use an app which is secure and protects customer data
+                    </li>
+                    <li>Use an app which is easy to navigate</li>
+                  </ul>
+                </div>
+                <div>
+                  <span className="text-gray-500 font-bold">Frustrations</span>
+                  <ul className="list-disc ml-8 text-gray-500">
+                    <li>Restrictions on transfer/payment amounts</li>
+                    <li>Concerned about high charges/fees</li>
+                    <li>
+                      Worried about weak security associated with payment apps
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="border-4 border-yellow-400 mx-auto my-12">
+                <p className="p-4 text-gray-500">
+                  Atul is a 23 year old tailor who has dyslexia and lives with
+                  her mum. She sews ready made garments and buys items from
+                  different sellers to accessorize. Atul constantly needs to
+                  quickly make payments to secure her desired items. Due to her
+                  busy schedule, she is concerned with going to her financial
+                  institution to make payments. She is also worried about high
+                  fees and charges associated with funds transfer and worried
+                  using a payment app may result in security and data breach and
+                  a limit on the payment amounts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <div className="p-8">
+            <h1 className="text-4xl font-bold text-gray-500 pb-4">
+              User journey map
+            </h1>
+            <p className="text-gray-500">
+              The goal is to create a user-centered design, provide a seamless
+              user experience. The thought process involves incorporating
+              security measures such as multi-factor authentication and clear
+              communication about privacy and data protection.
+            </p>
+          </div>
+          <div className="flex p-8">
+            <div className="flex flex-col pr-4">
+              <div className="flex flex-col pb-4">
+                <h1 className="text-black font-bold">Persona: Atul</h1>
+                <span>Goal: A fast and easy way to pay suppliers</span>
+              </div>
+              <table class="table-fixed border border-collapse border-black w-full">
+                <thead>
+                  <tr>
+                    <th class="w-1/6 border border-black p-4">Action</th>
+                    <th class="w-1/6 border border-black p-4 bg-blue-400">
+                      Select a payment app
+                    </th>
+                    <th class="w-1/6 border border-black p-4 bg-blue-400">
+                      Browse the features
+                    </th>
+                    <th class="w-1/6 border border-black p-4 bg-blue-400">
+                      Decide on a transaction
+                    </th>
+                    <th class="w-1/6 border border-black p-4 bg-blue-400">
+                      Complete a transaction
+                    </th>
+                    <th class="w-1/6 border border-black p-4 bg-blue-400">
+                      Receive advice
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="w-1/6 border border-black p-4 font-bold">
+                      Task List
+                    </td>
+                    <td class="w-2/6 border border-black p-4">
+                      <div className=" flex flex-col text-gray-500">
+                        <span className="pb-2">Tasks</span>
+                        <span>A. Decide on a payment method</span>
+                        <span>
+                          B. Search for payment apps via the stores or browser
+                        </span>
+                        <span>
+                          C. Check security review and select a payment app
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4">
+                      <div className=" flex flex-col text-gray-500">
+                        <span className="pb-2">Tasks</span>
+                        <span className="mt-12">
+                          A. Browse online or the stores
+                        </span>
+                        <span>
+                          B. Download the application via the stores/access
+                          online
+                        </span>
+                        <span>C. View features</span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4">
+                      <div className=" flex flex-col text-gray-500">
+                        <span className="pb-2">Tasks</span>
+                        <span className="mt-12">
+                          A. Provide payment information
+                        </span>
+                        <span>B. Choose transaction type</span>
+                        <span>C. Submit beneficiary details</span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4">
+                      {" "}
+                      <div className=" flex flex-col text-gray-500">
+                        <span className="pb-2">Tasks</span>
+                        <span className="mt-16">A. View Charges/fees</span>
+                        <span className="mb-10">
+                          B. Confirm payment details
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4">
+                      <div className=" flex flex-col text-gray-500">
+                        <span className="pb-2">Tasks</span>
+                        <span className="mt-20">A. View payment status</span>
+                        <span>
+                          B. Notification of the status of the payment
+                        </span>
+                        <span>C. View payment device</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/6 border border-black p-4 font-bold">
+                      Emotions
+                    </td>
+                    <td class="w-2/6 border border-black p-4 text-gray-500">
+                      <div>
+                        <span>Overwhelmed by number of payment options</span>
+                        <span>Excited to find one they like</span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4 text-gray-500">
+                      <div>
+                        <span>
+                          Annoyed at large amount of texts with tiny font sizes
+                          and limited visuals{" "}
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4 text-gray-500">
+                      <div>
+                        <span>
+                          Dissatisfied with scrolling to find appropriate
+                          function
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4 text-gray-500">
+                      <div>
+                        <span>
+                          Fraustrated at having to complete many fields/forms
+                          and provide lots of information
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4 text-gray-500">
+                      <div>
+                        <span>Happy to recieve payment</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="w-2/6 border border-black p-4 font-bold">
+                      Improvement Opportunities
+                    </td>
+                    <td class="w-1/6 border border-black p-4 text-gray-500">
+                      {" "}
+                      <div className="flex flex-col">
+                        <span>
+                          Create a dedicated payment app that caters for Atul's
+                          need.
+                        </span>
+                        <span>Introduce biometric verification</span>
+                      </div>
+                    </td>
+                    <td class="w-1/6 border border-black p-4 text-gray-500">
+                      <div className="flex flex-col">
+                        <span>Provide search filters</span>
+                        <span>Structure the transactions</span>
+                        <span>Optimize app for screen reader technologies</span>
+                      </div>
+                    </td>
+                    <td class="w-1/6 border border-black p-4 text-gray-500">
+                      <div className="flex flex-col">
+                        <span>Provide a simple payment flow</span>
+                      </div>
+                    </td>
+                    <td class="w-1/6 border border-black p-4 text-gray-500">
+                      {" "}
+                      <div className="flex flex-col">
+                        <span>
+                          Provide an option to review submitted information
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-1/6 border border-black p-4 text-gray-500">
+                      {" "}
+                      <div className="flex flex-col">
+                        <span>Include a loyalty program</span>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div></div>
+          </div>
+        </div>
       </div>
     </div>
   );
