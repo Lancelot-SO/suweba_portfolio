@@ -112,7 +112,7 @@ const FirstProjectPage = () => {
               <BiSolidBarChartAlt2 />
             </div>
             <div className="w-100% h-2/3 mt-12 pt-6 pl-20 ">
-              <p className="text-justify text-lg leading-relaxedbg-gray-100 py-12 px-12">
+              <p className="text-justify text-lg leading-relaxed bg-gray-100 py-12 px-12">
                 A detailed approach was adopted to gain insights into user needs
                 and user pain points. Interview and survey were conducted. Most
                 of the participants reported frustrations with existing banking
@@ -452,6 +452,151 @@ const FirstProjectPage = () => {
               </table>
             </div>
             <div></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col pt-20">
+        <h1 className="flex text-4xl font-bold text-blue-600 py-20 items-center justify-center">
+          Starting the design
+        </h1>
+        <div className="flex flex-row">
+          <div className="w-1/3 pr-8">
+            <h2 className="text-4xl font-bold text-gray-500 pb-20">
+              Paper wireframes
+            </h2>
+            <p className="text-justify text-lg leading-relaxed py-12">
+              Users desired a design with personalised information and list of
+              features and their functionalities.
+            </p>
+          </div>
+          <div className="w-2/3">
+            <img src={Persona} alt="sec" />
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col pt-20">
+        <div className="flex flex-row">
+          <div className="w-1/3 pr-8">
+            <h2 className="text-4xl font-bold text-gray-500 pb-20">
+              Digital wireframes
+            </h2>
+            <p className="text-justify text-lg leading-relaxed py-12">
+              [Users desired an overview of their balances and financial tips]
+            </p>
+          </div>
+          <div className="w-2/3">
+            <img src={Persona} alt="sec" />
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col pt-20">
+        <div className="flex flex-row">
+          <div className="w-1/3 pr-8">
+            <h2 className="text-4xl font-bold text-gray-500 pb-20">
+              Low-fidelity prototype
+            </h2>
+            <p className="text-justify text-lg leading-relaxed py-12">
+              The user access the menu from the homepage. A list of functions
+              are displayed providing the user the option to select from the
+              menu. The user selects the payment option and follow through the
+              steps to pay.
+            </p>
+            <br />
+            <p>Please find link below</p>
+            <a
+              href="https://www.figma.com/file/Rwk9ag9JbIW
+            QryxEt2dayb/CalBank-App-Redesign?typ
+            e=design&node-id=82%3A95&mode=desi
+            gn&t=8DPupzc6j381ayoB-1"
+              className="text-blue-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://www.figma.com/file/Rwk9ag9JbIW
+              QryxEt2dayb/CalBank-App-Redesign?typ
+              e=design&node-id=82%3A95&mode=desi gn&t=8DPupzc6j381ayoB-1
+            </a>
+          </div>
+          <div className="w-2/3">
+            <img src={Persona} alt="sec" />
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col pt-20">
+        <div className="pr-8 pb-8">
+          <h2 className="text-4xl font-bold text-gray-500 ">
+            Usability study : findings
+          </h2>
+          <p className="text-justify text-lg leading-relaxed py-12 text-gray-500">
+            Write a short introduction to the usability studies you conducted
+            and your findings.
+          </p>
+        </div>
+        <div className=" flex items-center justify-center pt-8">
+          <div className="flex flex-row gap-8">
+            <div>
+              <h2 className="text-orange-400 pb-4 font-bold">
+                Round 1 findings
+              </h2>
+              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+                <div className="flex bg-orange-400 w-10 h-10 items-center justify-center rounded-full text-white text-xl">
+                  1
+                </div>
+                <span className="flex items-center text-gray-500 pr-20">
+                  Quick access to the menu
+                </span>
+              </div>
+              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+                <div className="flex bg-orange-400 w-10 h-10 items-center justify-center rounded-full text-white text-xl">
+                  2
+                </div>
+                <span className="flex items-center text-gray-500 pr-20">
+                  Menu of functionalities
+                </span>
+              </div>
+              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+                <div className="flex bg-orange-400 w-10 h-10 items-center justify-center rounded-full text-white text-xl">
+                  3
+                </div>
+                <span className="flex items-center text-gray-500 pr-20">
+                  View charges and fees
+                </span>
+              </div>
+            </div>
+
+            <div>
+              <h2 className="text-orange-400 pb-4 font-bold">
+                Round 2 findings
+              </h2>
+              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+                <div className="flex bg-orange-400 w-10 h-10 items-center justify-center rounded-full text-white text-xl">
+                  1
+                </div>
+                <span className="flex items-center text-gray-500 pr-20">
+                  Group similar functions together
+                </span>
+              </div>
+              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+                <div className="flex bg-orange-400 w-10 h-10 items-center justify-center rounded-full text-white text-xl">
+                  2
+                </div>
+                <span className="flex items-center text-gray-500 pr-20">
+                  Reword texts for users to easily understand
+                </span>
+              </div>
+              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+                <div className="flex bg-orange-400 w-10 h-10 items-center justify-center rounded-full text-white text-xl">
+                  3
+                </div>
+                <span className="flex items-center text-gray-500 pr-20">
+                  Incorporate high contrast colour in the design
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
