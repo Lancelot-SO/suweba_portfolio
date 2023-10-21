@@ -1,6 +1,12 @@
 import React from "react";
-import HeroImage from "../assets/img/Homepage.png";
-import Persona from "../assets/hero.jpg";
+import HeroImage1 from "../assets/project2/Mock 2Homepage.png";
+import HeroImage2 from "../assets/project2/Mock 3 Menu.png";
+import HeroImage3 from "../assets/project2/Mock 1 Settings.png";
+import Persona from "../assets/project2/p.jpg";
+import Digital from "../assets/project2/digitalframe.png";
+import Prototype from "../assets/project2/prototype.png";
+import HandDrawn from "../assets/project2/handdrawn.jpg";
+
 import { BsPersonCircle } from "react-icons/bs";
 import { AiFillStar, AiOutlineMenu } from "react-icons/ai";
 import { PiWarningCircleFill } from "react-icons/pi";
@@ -13,8 +19,8 @@ const FirstProjectPage = () => {
       <h1 className="text-4xl font-bold text-blue-600 py-20">
         Redesigning A Payment Application for a seamless User Experience
       </h1>
-      <div className="pt-4 flex justify-center items-center">
-        <div className="w-1/2 pr-8">
+      <div className="pt-4 flex  justify-center items-center">
+        <div className="w-1/3 pr-8 flex">
           <div>
             <h1 className="pb-4 text-3xl text-blue-600">Project Overview</h1>
             <div>
@@ -33,14 +39,12 @@ const FirstProjectPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
-          <img
-            src={HeroImage}
-            alt="sec"
-            width={500}
-            height={300}
-            className="pt-8"
-          />
+        <div className="w-2/3 flex flex-row">
+          <div className="flex m-0 p-0">
+            <img src={HeroImage1} alt="sec" className="pt-8 w-1/3" />
+            <img src={HeroImage2} alt="sec" className="pt-8 w-1/3" />
+            <img src={HeroImage3} alt="sec" className="pt-8 w-1/3" />
+          </div>
         </div>
       </div>
       <div className="flex pt-20">
@@ -471,7 +475,7 @@ const FirstProjectPage = () => {
             </p>
           </div>
           <div className="w-2/3">
-            <img src={Persona} alt="sec" />
+            <img src={HandDrawn} alt="sec" />
           </div>
         </div>
       </div>
@@ -486,8 +490,8 @@ const FirstProjectPage = () => {
               [Users desired an overview of their balances and financial tips]
             </p>
           </div>
-          <div className="w-2/3">
-            <img src={Persona} alt="sec" />
+          <div className="w-2/3 flex items-center justify-center">
+            <img src={Digital} alt="sec" className="w-80 h-100" />
           </div>
         </div>
       </div>
@@ -520,8 +524,8 @@ const FirstProjectPage = () => {
               e=design&node-id=82%3A95&mode=desi gn&t=8DPupzc6j381ayoB-1
             </a>
           </div>
-          <div className="w-2/3">
-            <img src={Persona} alt="sec" />
+          <div className="w-2/3 flex items-center justify-center">
+            <img src={Prototype} alt="sec" />
           </div>
         </div>
       </div>
