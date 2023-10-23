@@ -195,6 +195,7 @@ const FirstProjectPage = () => {
           </div>
         </div>
       </div>
+
       <div className="flex flex-row pt-20">
         <div className="w-1/3 pr-8">
           <h1 className="text-2xl flex flex-row gap-4 font-bold text-gray-500 pt-4 pb-16">
@@ -281,6 +282,7 @@ const FirstProjectPage = () => {
           </div>
         </div>
       </div>
+
       <div className="flex flex-col">
         <div className="p-8">
           <h1 className="text-4xl font-bold text-gray-500 pb-4">
@@ -652,6 +654,7 @@ const FirstProjectPage = () => {
           </div>
         </div>
       </div>
+
       <div className="flex flex-row">
         <div className="w-1/3 pr-8">
           <h2 className="text-4xl font-bold text-gray-500 pb-20">Mockups</h2>
