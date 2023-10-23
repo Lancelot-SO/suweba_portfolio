@@ -78,7 +78,7 @@ function NavBar() {
         </li>
         <li className="text-custom-blue cursor-pointer hover:scale-105 duration-200">
           <a
-            href="https://github.com/Lancelot-SO/"
+            href="https://github.com/sidikialare/"
             target="_blank"
             rel="noopener noreferrer"
           >
