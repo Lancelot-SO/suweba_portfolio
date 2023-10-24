@@ -15,7 +15,7 @@ import hifi from "../assets/Project/Hi fi prototype.png";
 import mobile from "../assets/Project/mobile_screen.png";
 import tablet from "../assets/Project/Responsive Tablet .png";
 import desktop from "../assets/Project/Responsiv -Desk_Laptop.png";
-
+import Sidemap from "../assets/Project/Sitemap.png";
 import { PiChalkboardSimpleDuotone } from "react-icons/pi";
 import {
   BsArrowLeft,
@@ -380,16 +380,18 @@ const SecondProjectPage = () => {
           </div>
           <div className="w-2/3">
             <div className="flex flex-row ml-8">
-              <div>
+              <div className="w-1/2">
                 <span className="">Before usability study</span>
                 <div className="flex flex-row gap-4">
-                  <img src={before} alt="sec" className="pt-8 w-2/3" />
+                  <img src={before} alt="sec" className="pt-8 w-80 h-full" />
                   <BsArrowRight size={60} className="text-yellow-500 mt-80" />
                 </div>
               </div>
-              <div>
-                <span className="text-custom-blue">After usability study</span>
-                <img src={after} alt="sec" className="pt-8 w-3/3 border" />
+              <div className="w-1/2">
+                <span className="text-custom-blue ml-16">
+                  After usability study
+                </span>
+                <img src={after} alt="sec" className="pt-8 w-full h-full" />
               </div>
             </div>
           </div>
@@ -433,17 +435,17 @@ const SecondProjectPage = () => {
             className="w-1/4  p-2 border-2 border-black rounded-lg"
           />
           <img
-            src={after}
+            src={after1}
             alt="sec"
             className="w-1/4  p-2 border-2 border-black rounded-lg"
           />
           <img
-            src={after}
+            src={after1}
             alt="sec"
             className="w-1/4  p-2 border-2 border-black rounded-lg"
           />
           <img
-            src={after}
+            src={after1}
             alt="sec"
             className="w-1/4  p-2 border-2 border-black rounded-lg"
           />
@@ -454,7 +456,7 @@ const SecondProjectPage = () => {
         <div className="flex flex-row">
           <div className="w-1/3 pr-8">
             <h2 className="text-4xl font-bold text-gray-500 pb-20">
-              Low-fidelity prototype
+              High-fidelity prototype
             </h2>
             <p className="text-justify text-lg leading-relaxed py-12">
               The high fidelity prototype followed the same user flow as the low
@@ -537,7 +539,7 @@ const SecondProjectPage = () => {
             </p>
           </div>
           <div class="w-2/3 p-4">
-            <img src={analysis} alt="ps" className="w-full h-80" />
+            <img src={Sidemap} alt="ps" className="w-full h-80" />
           </div>
         </div>
       </div>

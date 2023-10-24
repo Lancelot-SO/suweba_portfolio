@@ -21,26 +21,21 @@ const ProjectDetails = ({ item }) => {
   return (
     <div key={item.id}>
       <div className="shadow-md shadow-gray-600 rounded-lg">
-        <img
-          src={item.src}
-          alt=""
-          onClick={openPopup}
-          className="rounded-md duration-200 hover:scale-105 cursor-pointer"
-        />
+        <a href={item.href}>
+          <img
+            src={item.src}
+            alt=""
+            className="rounded-md duration-200 hover:scale-105 cursor-pointer"
+          />
+        </a>
         <div className="flex flex-col items-center justify-center">
           <div className="flex flex-col items-center justify-center w-full py-3">
             <button
               onClick={openPopup}
-              className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-yellow-500 text-center"
+              className="cursor-pointer bg-custom-blue text-white w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-gray-700 text-center rounded-full"
             >
               {item.title}
             </button>
-            <a
-              href={item.href}
-              className="cursor-pointer bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700"
-            >
-              case study
-            </a>
           </div>
         </div>
       </div>

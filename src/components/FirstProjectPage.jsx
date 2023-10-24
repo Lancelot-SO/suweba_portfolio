@@ -216,7 +216,7 @@ const FirstProjectPage = () => {
                 <div className="border-4 border-yellow-500 p-2">
                   <img src={Persona} alt="sec" className=" w-40 h-30" />
                 </div>
-                <span class="mt-12 ml-16 flex items-center text-gray-500">
+                <span class="italic mt-12 ml-16 flex items-center text-gray-500">
                   “Changing the narrative through fashion”
                 </span>
               </div>
