@@ -195,6 +195,7 @@ const FirstProjectPage = () => {
           </div>
         </div>
       </div>
+
       <div className="flex flex-row pt-20">
         <div className="w-1/3 pr-8">
           <h1 className="text-2xl flex flex-row gap-4 font-bold text-gray-500 pt-4 pb-16">
@@ -215,7 +216,7 @@ const FirstProjectPage = () => {
                 <div className="border-4 border-yellow-500 p-2">
                   <img src={Persona} alt="sec" className=" w-40 h-30" />
                 </div>
-                <span class="mt-12 ml-16 flex items-center text-gray-500">
+                <span class="italic mt-12 ml-16 flex items-center text-gray-500">
                   “Changing the narrative through fashion”
                 </span>
               </div>
@@ -281,6 +282,7 @@ const FirstProjectPage = () => {
           </div>
         </div>
       </div>
+
       <div className="flex flex-col">
         <div className="p-8">
           <h1 className="text-4xl font-bold text-gray-500 pb-4">
@@ -652,6 +654,7 @@ const FirstProjectPage = () => {
           </div>
         </div>
       </div>
+
       <div className="flex flex-row">
         <div className="w-1/3 pr-8">
           <h2 className="text-4xl font-bold text-gray-500 pb-20">Mockups</h2>
