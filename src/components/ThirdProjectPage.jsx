@@ -16,13 +16,7 @@ import mock3 from "../assets/Portfolio 3/Mock3.png";
 import mock4 from "../assets/Portfolio 3/Mock4.png";
 import prototype1 from "../assets/Portfolio 3/PrototypeHifi.png";
 
-import { CgDanger } from "react-icons/cg";
-import { AiFillStar, AiOutlineMenu } from "react-icons/ai";
-import { BsArrowLeft, BsArrowRight, BsPersonCircle } from "react-icons/bs";
-import { BiSolidBarChartAlt2 } from "react-icons/bi";
-import { FaClipboardCheck } from "react-icons/fa";
-import { MdMenuBook } from "react-icons/md";
-import { HiPencil } from "react-icons/hi";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 const ThirdProjectPage = () => {
   return (
