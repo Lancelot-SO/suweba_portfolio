@@ -18,7 +18,7 @@ import prototype1 from "../assets/Portfolio 3/PrototypeHifi.png";
 
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
-const ThirdProjectPage = () => {
+const thirdProjectPage = () => {
   return (
     <div className="w-full py-4 px-12">
       <h1 className="text-4xl font-bold text-text-color py-20">
@@ -748,4 +748,4 @@ const ThirdProjectPage = () => {
   );
 };
 
-export default ThirdProjectPage;
+export default thirdProjectPage;
