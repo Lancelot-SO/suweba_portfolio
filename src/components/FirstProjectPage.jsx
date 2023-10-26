@@ -37,7 +37,7 @@ const FirstProjectPage = () => {
                 payment flow while ensuring security and user satisfaction.
               </p>
               <span class="text-text-color">
-                <b>Project duration:</b> November 2022 - June 2023
+                <b>Project duration:</b> November 2022 - June 2023.
               </span>
             </div>
           </div>
