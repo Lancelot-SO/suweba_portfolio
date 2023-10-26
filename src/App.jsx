@@ -7,7 +7,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import FirstProjectPage from "./components/FirstProjectPage";
 import SecondProjectPage from "./components/SecondProjectPage";
-import thirdProjectPage from "./components/thirdProjectPage";
+import ThirdProjectPage from "./components/ThirdProjectPage";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           path="/secondprojectpage"
           element={<SecondProjectPage />}
         ></Route>
-        <Route path="/thirdprojectpage" element={<thirdProjectPage />}></Route>
+        <Route path="/thirdprojectpage" element={<ThirdProjectPage />}></Route>
       </Routes>
       <Footer />
     </Router>
