@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "custom-blue": "#00A4E4",
+        "text-color": "#2f2f2f",
       },
     },
     fontFamily: {
