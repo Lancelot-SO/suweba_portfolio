@@ -7,8 +7,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import FirstProjectPage from "./components/FirstProjectPage";
 import SecondProjectPage from "./components/SecondProjectPage";
-import ThirdProjectPage from "./components/thirdProjectPage";
-
+import ThirdProjectPage from "./components/ThirdProjectPage";
 function App() {
   return (
     <Router>
