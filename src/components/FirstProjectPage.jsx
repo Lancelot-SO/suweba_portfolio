@@ -12,6 +12,7 @@ import Confirm from "../assets/project2/confirm.png";
 import Form from "../assets/project2/form.png";
 
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
+import { prototype } from "postcss/lib/previous-map";
 
 const FirstProjectPage = () => {
   return (
@@ -536,7 +537,7 @@ const FirstProjectPage = () => {
               <h2 className=" pb-4 font-bold text-text-color">
                 Round 1 findings
               </h2>
-              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+              <div className="flex flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   1
                 </div>
@@ -544,7 +545,7 @@ const FirstProjectPage = () => {
                   Quick access to the menu.
                 </span>
               </div>
-              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+              <div className="flex flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   2
                 </div>
@@ -552,7 +553,7 @@ const FirstProjectPage = () => {
                   Menu of functionalities.
                 </span>
               </div>
-              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+              <div className="flex flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   3
                 </div>
@@ -566,7 +567,7 @@ const FirstProjectPage = () => {
               <h2 className="text-text-color pb-4 font-bold">
                 Round 2 findings
               </h2>
-              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+              <div className="flex flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   1
                 </div>
@@ -574,7 +575,7 @@ const FirstProjectPage = () => {
                   Group similar functions together.
                 </span>
               </div>
-              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+              <div className="flex flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   2
                 </div>
@@ -582,7 +583,7 @@ const FirstProjectPage = () => {
                   Reword texts for users to easily understand.
                 </span>
               </div>
-              <div className="flex flex-row gap-4 bg-gray-100 px-8 py-4">
+              <div className="flex flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   3
                 </div>
@@ -673,30 +674,21 @@ const FirstProjectPage = () => {
       </div>
 
       <div className="flex flex-col pt-20">
-        <div className="pr-8">
-          <h2 className="text-3xl flex items-center justify-center text-text-color pb-8">
-            Mockups
-          </h2>
-          <p className="text-justify text-lg leading-relaxed py-12 text-text-color">
-            Users perceived the groupings of the services to perform similar
-            functions. This was considered and the services were grouped into
-            two categories to simplify the complexity of grouping all the
-            services together.
-          </p>
-        </div>
-        <div className="ml-24">
-          <div className="flex flex-row ml-8">
-            <div>
-              <span className="text-text-color">Before usability study</span>
-              <div className="flex flex-row gap-4">
-                <img src={Digital} alt="sec" className="pt-8 w-2/3" />
-                <BsArrowRight size={60} className="text-text-color mt-80" />
-              </div>
+        <div className="flex flex-col">
+          <div className=" pr-8">
+            <h2 className="text-3xl text-text-color flex items-center justify-center pb-8">
+              High-fidelity prototype
+            </h2>
+            <p className="text-text-color text-justify text-lg leading-relaxed py-4">
+              The high fidelity prototype followed the same user flow as the low
+              fidelity prototype including design changes made after the
+              usability studies. View the link below.
+            </p>
+
+            <div className="flex items-center justify-center">
+              <img src={Prototype} alt="sec" />
             </div>
-            <div>
-              <span className="text-custom-blue">After usability study</span>
-              <img src={HeroImage2} alt="sec" className="pt-8 w-2/3" />
-            </div>
+            <br />
           </div>
         </div>
       </div>
