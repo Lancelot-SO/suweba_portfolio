@@ -33,7 +33,7 @@ function NavBar() {
 
   return (
     <div
-      className={`flex justify-between items-center w-full h-20 text-custom-blue bg-white border-b-2 fixed px-4 ${
+      className={`flex justify-between items-center w-full h-20 text-text-blue bg-white border-b-2 fixed px-4 ${
         nav ? "bg-opacity-90" : ""
       }`}
     >
@@ -56,8 +56,8 @@ function NavBar() {
         {links.map(({ id, link, href }, index) => (
           <li
             key={id}
-            className={`px-4 cursor-pointer capitalize font-medium text-custom-blue hover:scale-105 duration-200 ${
-              activeLink === index ? "border-b-2 border-custom-blue" : ""
+            className={`px-4 cursor-pointer capitalize font-medium text-text-color hover:scale-105 duration-200 ${
+              activeLink === index ? "border-b-2 border-text-color" : ""
             }`}
           >
             <Link to={href} onClick={() => handleLinkClick(index)}>
@@ -67,7 +67,7 @@ function NavBar() {
         ))}
       </ul>
       <ul className="hidden md:flex flex-row">
-        <li className="px-4 text-custom-blue cursor-pointer hover:scale-105 duration-200">
+        <li className="px-4 text-text-color cursor-pointer hover:scale-105 duration-200">
           <a
             href="https://www.linkedin.com/in/sidikialare/"
             target="_blank"
@@ -76,7 +76,7 @@ function NavBar() {
             <BsLinkedin />
           </a>
         </li>
-        <li className="text-custom-blue cursor-pointer hover:scale-105 duration-200">
+        <li className="text-text-color cursor-pointer hover:scale-105 duration-200">
           <a
             href="https://github.com/sidikialare/"
             target="_blank"

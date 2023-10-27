@@ -7,10 +7,9 @@ import ideation from "../assets/Project/Ideation.jpeg";
 import wireframe from "../assets/Project/DigitalWireFrame.png";
 import Prototype from "../assets/Project/Low fi Prototype.png";
 import before from "../assets/Project/Before Usability Tutorial .png";
-import after from "../assets/Project/Mock 3 Enroll Page.png";
-import after1 from "../assets/Project/Mock 2 Discover page.png";
-import after4 from "../assets/Project/After - Tutorial.png";
-import Discover from "../assets/Project/After Discover 1 .png";
+import success from "../assets/Learning Platform/success.png";
+import tutorial from "../assets/Learning Platform/Tutorial.png";
+import Discover from "../assets/Learning Platform/Discover.png";
 import Discover1 from "../assets/Project/Before Discover.png";
 import hifi from "../assets/Project/Hifi prototype.png";
 import mobile from "../assets/Project/mobile_screen.png";
@@ -18,6 +17,7 @@ import tablet from "../assets/Project/Responsive Tablet .png";
 import desktop from "../assets/Project/Responsiv -Desk_Laptop.png";
 import Sidemap from "../assets/Project/Sitemap - Learning App.png";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import enroll from "../assets/Learning Platform/Enroll.png";
 
 const SecondProjectPage = () => {
   return (
@@ -44,7 +44,8 @@ const SecondProjectPage = () => {
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col">
                   <span className="text-text-color  pb-4">
-                    <b>Project duration:</b> June - July 2023
+                    <b className="text-xl">Project duration:</b> June - July
+                    2023
                   </span>
                 </div>
               </div>
@@ -60,7 +61,7 @@ const SecondProjectPage = () => {
 
       <div className="flex pt-20">
         <div className="w-1/2 pr-8">
-          <p className="text-text-color font-bold pt-4">The problem:</p>
+          <p className="text-xl text-text-color font-bold pt-4">The problem:</p>
           <br />
           <p className="text-text-color text-justify text-lg leading-relaxed">
             The existing learning application do not have a solution
@@ -71,7 +72,7 @@ const SecondProjectPage = () => {
           </p>
         </div>
         <div className="w-1/2">
-          <p className="text-text-color font-bold pt-4">The goal:</p>
+          <p className="text-text-color font-bold pt-4 text-xl">The goal:</p>
           <br />
           <p className="text-text-color text-justify text-lg leading-relaxed">
             To design a learning application that specifically address financial
@@ -86,29 +87,55 @@ const SecondProjectPage = () => {
 
       <div className="flex pt-20">
         <div className="w-1/2 pr-8">
-          <p className="text-text-color font-bold pt-4">My role:</p>
+          <p className="text-text-color font-bold pt-4 text-xl">My role:</p>
           <br />
           <p className="text-justify text-lg leading-relaxed text-text-color">
             UX designer and UX researcher,
           </p>
         </div>
         <div className="w-1/2">
-          <p className="text-text-color font-bold pt-4">Responsibilities:</p>
+          <p className="text-text-color font-bold pt-4 text-xl">
+            Responsibilities:
+          </p>
           <br />
           <p className="text-justify text-lg leading-relaxed">
             <ul className="list-disc text-text-color">
               <li>
-                Planned and conducted the user research through collaboration
-                with stakeholders using qualitative and quantitative research
-                methods.
+                Designed the visual elements of the interface, including
+                layouts, color schemes, typography, icons, and interactive
+                elements.
               </li>
-              <li>Created user personas to help guide the design process.</li>
-              <li>Planned and conducted usability testing sessions.</li>
               <li>
-                Collaborated with UX Designers to translate findings into design
-                recommendations.
+                Conducting user research to understand user needs, behaviors,
+                and preferences.
               </li>
-              <li>Created wireframes and mock-ups.</li>
+              <li>
+                Developing user personas and user journey maps to guide design
+                decisions.
+              </li>
+              <li>
+                Organizing content and features to create a logical and
+                intuitive structure.
+              </li>
+              <li>
+                Designing navigation menus and user flows that make it easy for
+                users to find information and complete tasks.
+              </li>
+              <li>
+                Iterated design ideas and incorporated feedback from
+                stakeholders.
+              </li>
+              <li>
+                Designed with accessibility in mind to make the interface usable
+                for people with disabilities.
+              </li>
+              <li>
+                Ensured compliance with accessibility standards and guidelines.
+              </li>
+              <li>
+                Worked closely with cross-functional teams to ensure the design
+                aligned with project goals.
+              </li>
             </ul>
           </p>
         </div>
@@ -120,7 +147,7 @@ const SecondProjectPage = () => {
         </h1>
         <div>
           <h2 className="text-3xl flex items-center justify-center pt-4 pb-4">
-            User research: summary
+            User Research: Summary
           </h2>
           <div className="">
             <div className="">
@@ -146,7 +173,9 @@ const SecondProjectPage = () => {
           <h1 className="text-2xl flex flex-row gap-4 text-text-color pt-4 pb-16">
             Persona: <span className="text-text-color font-bold">Amawen</span>
           </h1>
-          <span className="text-text-color font-bold">Problem statement:</span>
+          <span className="text-text-color font-bold text-xl">
+            Problem statement:
+          </span>
           <p className="text-justify text-md leading-relaxed pt-4 text-text-color">
             Amawen is a high school student who needs to learn financial skills
             to manage his allowances because the available programs makes it
@@ -181,7 +210,7 @@ const SecondProjectPage = () => {
             </table>
           </div>
           <div className="w-2/3 flex flex-col">
-            <span class="italic  ml-16 flex items-center text-text-color">
+            <span class="text-xl italic  ml-16 flex items-center text-text-color">
               “Changing the narrative through fashion”
             </span>
             <div className="flex flex-row gap-4 mt-20 ml-12">
@@ -224,7 +253,9 @@ const SecondProjectPage = () => {
           <h1 className="text-2xl flex flex-row gap-4 text-text-color pt-4 pb-16">
             Persona: <span className="text-text-color font-bold">Apuingle</span>
           </h1>
-          <span className="text-text-color font-bold">Problem statement:</span>
+          <span className="text-text-color font-bold text-xl">
+            Problem statement:
+          </span>
           <p className="text-justify text-md leading-relaxed pt-4 text-text-color">
             Apuingle is high school graduate with dyslexia who needs to have
             personal tuition on financial skills because her current learning
@@ -261,7 +292,7 @@ const SecondProjectPage = () => {
             </table>
           </div>
           <div className="w-2/3 flex flex-col">
-            <span class="italic  ml-16 flex items-center text-text-color">
+            <span class="text-xl italic  ml-16 flex items-center text-text-color">
               “Changing the narrative through fashion.”
             </span>
             <div className="flex flex-row gap-4 mt-12 ml-12">
@@ -302,8 +333,8 @@ const SecondProjectPage = () => {
 
       <div className="flex flex-col pt-20">
         <div className="pr-8">
-          <h1 className="text-text-color text-2xl flex flex-row gap-4 items-center justify-center pt-16 pb-4">
-            Competitive audit
+          <h1 className="text-text-color text-3xl flex flex-row gap-4 items-center justify-center pt-16 pb-4">
+            Competitive Audit
           </h1>
           <p className="text-text-color text-justify text-md leading-relaxed pt-4 pb-4">
             Users wanted wanted a dedicated learning platform targeted at
@@ -320,7 +351,7 @@ const SecondProjectPage = () => {
 
       <div className="flex flex-col pt-20">
         <div className="pr-8">
-          <h1 className="text-text-color text-2xl flex flex-row gap-4 items-center justify-center pt-16 pb-4">
+          <h1 className="text-text-color text-3xl flex flex-row gap-4 items-center justify-center pt-16 pb-4">
             Ideation
           </h1>
           <p className="text-text-color text-justify text-md leading-relaxed pt-4 pb-4">
@@ -380,7 +411,7 @@ const SecondProjectPage = () => {
         <div className="flex flex-col">
           <div className=" pr-8">
             <h2 className="text-3xl text-text-color pb-8 flex items-center justify-center">
-              Low-fidelity prototype
+              Low-fidelity Prototype
             </h2>
             <p className="text-text-color text-justify text-lg leading-relaxed pb-6">
               The user access the homepage. The user is guided on the selection
@@ -411,7 +442,7 @@ const SecondProjectPage = () => {
             <span className="text-text-color w-16 h-16 font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
               1
             </span>
-            <span className="text-text-color font-bold flex ml-16 mb-8">
+            <span className="text-xl text-text-color font-bold flex ml-16 mb-8">
               Finding
             </span>
 
@@ -424,7 +455,7 @@ const SecondProjectPage = () => {
             <span className="text-text-color w-16 h-16 font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
               2
             </span>
-            <span className="text-text-color font-bold flex ml-16 mb-8">
+            <span className="text-xl text-text-color font-bold flex ml-16 mb-8">
               Finding
             </span>
 
@@ -437,7 +468,7 @@ const SecondProjectPage = () => {
             <span className="text-text-color w-16 h-16 font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
               3
             </span>
-            <span className="text-text-color font-bold flex ml-16 mb-8">
+            <span className="text-xl text-text-color font-bold flex ml-16 mb-8">
               Finding
             </span>
 
@@ -449,54 +480,66 @@ const SecondProjectPage = () => {
       </div>
 
       <div className="flex flex-col pt-20">
-        <h1 className="flex text-3xl font-bold text-text-color py-20 items-center justify-center">
+        <h1 className="flex text-4xl font-bold text-text-color py-20 items-center justify-center">
           Refining the design
         </h1>
-        <div className="flex flex-col pb-20">
+        <div className="flex flex-col">
           <div className="pr-8">
-            <h2 className="text-4xl  text-text-color pb-8 items-center justify-center flex">
+            <h2 className="text-3xl text-text-color pb-8 items-center justify-center flex">
               Mockups
             </h2>
-            <p className="text-justify text-text-color text-lg leading-relaxed pt-4 pb-8">
-              Based on the insights from the usability studies, i applied design
-              changes like providing a clear indication on the course progress
-              and nature of the content.
+            <p className="text-text-color text-justify text-lg leading-relaxed py-12">
+              The text and headers had the same visual colours. Users did not
+              know where to place emphasis. The text was grayed out. Also the
+              cue to cancel an action did not meet the color contrast
+              accessibility guidelines.
             </p>
           </div>
           <div className="ml-24">
             <div className="flex flex-row ml-8">
-              <img src={before} alt="bf" className="w-1/4" />
-              <BsArrowRight
-                size={120}
-                className="text-text-color mt-80 w-2/4"
-              />
-              <div className="flex flex-row">
-                <img src={after} alt="af" className="w-3/4" />
+              <div className=" w-1/2 ">
+                <span className="">Before usability study</span>
+                <div className="flex flex-row gap-16">
+                  <img src={before} alt="sec" className="pt-8 w-2/3" />
+                  <BsArrowRight size={60} className="text-text-color mt-80" />
+                </div>
+              </div>
+              <div className=" w-1/2 flex flex-col">
+                <span className="text-text-color pl-4 pt-2">
+                  After usability study
+                </span>
+                <img src={enroll} alt="sec" className="pt-16 w-2/3" />
               </div>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-col pb-20">
+        <div className="flex flex-col">
           <div className="pr-8">
-            <h2 className="text-4xl  text-text-color pb-8 items-center justify-center flex">
+            <h2 className="text-3xl text-text-color pb-8 items-center justify-center flex">
               Mockups
             </h2>
-            <p className="text-justify text-text-color text-lg leading-relaxed pt-4 pb-8">
-              Additional designs included having personalized recommendations
-              for users based off their activities and what other learners are
-              discovering.
+            <p className="text-text-color text-justify text-lg leading-relaxed py-12">
+              The text and headers had the same visual colours. Users did not
+              know where to place emphasis. The text was grayed out. Also the
+              cue to cancel an action did not meet the color contrast
+              accessibility guidelines.
             </p>
           </div>
           <div className="ml-24">
             <div className="flex flex-row ml-8">
-              <img src={before} alt="bf" className="w-1/4" />
-              <BsArrowRight
-                size={120}
-                className="text-text-color mt-80 w-2/4"
-              />
-              <div className="flex flex-row">
-                <img src={after1} alt="af" className="w-3/4" />
+              <div className=" w-1/2">
+                <span className="">Before usability study</span>
+                <div className="flex flex-row gap-16">
+                  <img src={Discover1} alt="sec" className="pt-8 w-2/3" />
+                  <BsArrowRight size={60} className="text-text-color mt-80" />
+                </div>
+              </div>
+              <div className=" w-1/2 flex flex-col">
+                <span className="text-text-color pl-4 pt-2">
+                  After usability study
+                </span>
+                <img src={Discover} alt="sec" className="pt-16 w-2/3" />
               </div>
             </div>
           </div>
@@ -507,21 +550,23 @@ const SecondProjectPage = () => {
         <h2 className="text-3xl text-text-color pb-8 flex items-center justify-center">
           Mockups
         </h2>
-        <div className="flex">
-          <img src={after1} alt="sec" className="w-1/2  p-2" />
-          <img src={after} alt="sec" className="w-1/2  p-2" />
-        </div>
-        <div className="flex mt-8">
-          <img src={after1} alt="sec" className="w-1/2  p-2" />
-          <img src={after4} alt="sec" className="w-1/2  p-2" />
+        <div className="flex flex-row">
+          <div className="flex flex-wrap">
+            <img src={Discover} alt="sec" className="w-1/2  p-2" />
+            <img src={enroll} alt="sec" className="w-1/2  p-2" />
+          </div>
+          <div className="flex flex-wrap">
+            <img src={success} alt="sec" className="w-1/2  p-2" />
+            <img src={tutorial} alt="sec" className="w-1/2  p-2" />
+          </div>
         </div>
       </div>
 
       <div className="flex flex-col pt-20">
         <div className="flex flex-col">
           <div className=" pr-8">
-            <h2 className="text-4xl flex items-center justify-center text-text-color pb-8">
-              High-fidelity prototype
+            <h2 className="text-3xl flex items-center justify-center text-text-color pb-8">
+              High-fidelity Prototype
             </h2>
             <p className="text-text-color text-justify text-lg leading-relaxed py-4">
               The high fidelity prototype followed the same user flow as the low
@@ -580,7 +625,7 @@ const SecondProjectPage = () => {
         </h1>
         <div className="flex flex-col">
           <div className="pr-8">
-            <h1 className="text-2xl flex items-center justify-center flex-row gap-4 font-bold text-text-color pt-4 pb-8">
+            <h1 className="text-3xl flex items-center justify-center flex-row gap-4 font-bold text-text-color pt-4 pb-8">
               Sitemap
             </h1>
             <p className="text-text-color text-justify text-md leading-relaxed pt-4">

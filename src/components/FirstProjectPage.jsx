@@ -1,18 +1,18 @@
 import React from "react";
-import HeroImage1 from "../assets/project2/Mock 2Homepage.png";
+import HeroImage1 from "../assets/Mobile Banking/Mock 2 Homepage.png";
 import HeroImage2 from "../assets/project2/Mock 3 Menu.png";
-import HeroImage3 from "../assets/project2/set.png";
+import HeroImage3 from "../assets/Mobile Banking/Mock 1 Settings.png";
 import Persona from "../assets/project2/p.jpg";
 import Digital from "../assets/project2/digitalframe.png";
 import Prototype from "../assets/project2/prototype.png";
 import HandDrawn from "../assets/project2/handdrawn.jpg";
 import Before from "../assets/project2/before.png";
-import After from "../assets/project2/after.png";
-import Confirm from "../assets/project2/confirm.png";
-import Form from "../assets/project2/form.png";
+import After from "../assets/Mobile Banking/Mock 4 Form.png";
+import Confirm from "../assets/Mobile Banking/Mock 6 Confirmation Screen.png";
+import Form from "../assets/Mobile Banking/Mock 5 Completed Form.png";
+import Highfi from "../assets/Mobile Banking/Hifi prototype.png";
 
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
-import { prototype } from "postcss/lib/previous-map";
 
 const FirstProjectPage = () => {
   return (
@@ -38,13 +38,14 @@ const FirstProjectPage = () => {
                 payment flow while ensuring security and user satisfaction.
               </p>
               <span class="text-text-color">
-                <b>Project duration:</b> November 2022 - June 2023.
+                <b className="text-xl">Project duration:</b> November 2022 -
+                June 2023.
               </span>
             </div>
           </div>
         </div>
         <div class="flex flex-col">
-          <div class="flex m-0 px-24">
+          <div class="flex px-24 ">
             <img src={HeroImage1} alt="sec" class="pt-8 w-screen h-screen" />
             <img src={HeroImage2} alt="sec" class="pt-8 w-screen h-screen" />
             <img src={HeroImage3} alt="sec" class="pt-8 w-screen h-screen" />
@@ -54,7 +55,7 @@ const FirstProjectPage = () => {
 
       <div className="flex pt-20">
         <div className="w-1/2 pr-8">
-          <p className="text-text-color font-bold pt-4">The problem:</p>
+          <p className="text-text-color font-bold pt-4 text-xl">The problem:</p>
           <br />
           <p className="text-justify text-lg leading-relaxed text-text-color">
             The existing payment application lacks a user-friendly interface and
@@ -64,7 +65,7 @@ const FirstProjectPage = () => {
           </p>
         </div>
         <div className="w-1/2">
-          <p className="text-text-color font-bold pt-4">The goal:</p>
+          <p className="text-text-color font-bold pt-4 text-xl">The goal:</p>
           <br />
           <p className="text-justify text-lg leading-relaxed text-text-color">
             The goal is to redesign the payment application to provide a
@@ -76,22 +77,56 @@ const FirstProjectPage = () => {
 
       <div className="flex pt-20">
         <div className="w-1/2 pr-8">
-          <p className="text-text-color font-bold pt-4">My role:</p>
+          <p className="text-text-color font-bold pt-4 text-xl">My role:</p>
           <br />
           <p className="text-justify text-text-color text-lg leading-relaxed">
             UX designer and UX researcher,
           </p>
         </div>
         <div className="w-1/2">
-          <p className="text-text-color font-bold pt-4">Responsibilities:</p>
+          <p className="text-text-color font-bold pt-4 text-xl">
+            Responsibilities:
+          </p>
           <br />
           <p className="text-justify text-text-color text-lg leading-relaxed">
-            Planned the user research through collaboration with stakeholders
-            Conducted User Research using various qualitative and quantitative
-            research methods Created user personas to help guide the design
-            process Planned and conducted usability testing sessions
-            Collaborated with UX Designers to translate findings into design
-            recommendations.
+            <ul className="list-disc text-text-color">
+              <li>
+                Designed the visual elements of the interface, including
+                layouts, color schemes, typography, icons, and interactive
+                elements.
+              </li>
+              <li>
+                Conducting user research to understand user needs, behaviors,
+                and preferences.
+              </li>
+              <li>
+                Developing user personas and user journey maps to guide design
+                decisions.
+              </li>
+              <li>
+                Organizing content and features to create a logical and
+                intuitive structure.
+              </li>
+              <li>
+                Designing navigation menus and user flows that make it easy for
+                users to find information and complete tasks.
+              </li>
+              <li>
+                Iterated design ideas and incorporated feedback from
+                stakeholders.
+              </li>
+              <li>
+                Designed with accessibility in mind to make the interface usable
+                for people with disabilities.
+              </li>
+              <li>
+                Ensured compliance with accessibility standards and guidelines.
+              </li>
+              <li>
+                Worked closely with cross-functional teams to ensure the design
+                aligned with project goals.
+              </li>
+            </ul>
           </p>
         </div>
       </div>
@@ -101,8 +136,8 @@ const FirstProjectPage = () => {
           Understanding the User
         </h1>
         <div>
-          <h2 className="text-3xl  text-text-color flex items-center justify-center pt-4">
-            User research: summary
+          <h2 className="text-3xl s text-text-color flex items-center justify-center pt-4">
+            User Research: Summary
           </h2>
           <div className="">
             <div className="">
@@ -122,17 +157,17 @@ const FirstProjectPage = () => {
 
       <div className="flex flex-col pt-20">
         <h1 className="text-3xl flex items-center justify-center  text-text-color pt-4 pb-16">
-          User research: pain points
+          User Research: Pain Points
         </h1>
         <div className="flex flex-row gap-8">
           <div className="flex flex-col">
             <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
               1
             </span>
-            <p className="text-lg leading-relaxed pb-4 text-text-color font-bold">
+            <p className="text-xl leading-relaxed pb-4 text-text-color font-bold">
               Pain point
             </p>
-            <p className="text-lg leading-relaxed text-text-color">
+            <p className="text-xl leading-relaxed text-text-color">
               Security concerns on robust encryption mesures, storage of payment
               data.
             </p>
@@ -141,7 +176,7 @@ const FirstProjectPage = () => {
             <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
               2
             </span>
-            <p className="text-lg leading-relaxed pb-4 text-text-color font-bold">
+            <p className="text-xl leading-relaxed pb-4 text-text-color font-bold">
               Pain point
             </p>
             <p className="text-lg leading-relaxed text-text-color">
@@ -153,7 +188,7 @@ const FirstProjectPage = () => {
             <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
               3
             </span>
-            <p className="text-lg leading-relaxed pb-4 text-text-color font-bold">
+            <p className="text-xl leading-relaxed pb-4 text-text-color font-bold">
               Pain point
             </p>
             <p className="text-lg leading-relaxed text-text-color">
@@ -166,7 +201,7 @@ const FirstProjectPage = () => {
             <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
               4
             </span>
-            <p className="text-justify text-md leading-relaxed pb-4 text-text-color font-bold">
+            <p className="text-xl text-justify text-md leading-relaxed pb-4 text-text-color font-bold">
               Pain point
             </p>
             <p className="text-justify text-md leading-relaxed text-text-color">
@@ -183,7 +218,9 @@ const FirstProjectPage = () => {
           <h1 className="text-2xl flex flex-row gap-4 text-text-color pt-4 pb-16">
             Persona: <span className="text-text-color font-bold">Atul</span>
           </h1>
-          <span className="text-text-color font-bold">Problem statement:</span>
+          <span className="text-text-color font-bold text-xl">
+            Problem statement:
+          </span>
           <p className="text-justify text-md leading-relaxed pt-4 text-text-color">
             Atul is a busy seamstress who needs ways to simply and quickly send
             to her supplier because visiting her financial institution is time
@@ -486,7 +523,7 @@ const FirstProjectPage = () => {
               <span className="flex items-center justify-center text-text-color">
                 Users desired a quick access to the frequently used menus.
               </span>
-              <BsArrowRight size={100} className="text-text-color" />
+              <BsArrowRight size={80} className="text-text-color" />
             </div>
             <img src={Digital} alt="sec" className="w-80 h-100" />
             <div className="flex flex-row w-80 mb-80">
@@ -534,7 +571,7 @@ const FirstProjectPage = () => {
         <div className=" flex items-center justify-center pt-8">
           <div className="flex flex-row gap-8">
             <div>
-              <h2 className=" pb-4 font-bold text-text-color">
+              <h2 className="text-xl pb-4 font-bold text-text-color">
                 Round 1 findings
               </h2>
               <div className="flex flex-row gap-4  px-8 py-4">
@@ -564,7 +601,7 @@ const FirstProjectPage = () => {
             </div>
 
             <div>
-              <h2 className="text-text-color pb-4 font-bold">
+              <h2 className="text-xl text-text-color pb-4 font-bold">
                 Round 2 findings
               </h2>
               <div className="flex flex-row gap-4  px-8 py-4">
@@ -597,12 +634,12 @@ const FirstProjectPage = () => {
       </div>
 
       <div className="flex flex-col pt-20">
-        <h1 className="flex text-3xl font-bold text-text-color py-20 items-center justify-center">
+        <h1 className="flex text-4xl font-bold text-text-color py-20 items-center justify-center">
           Refining the design
         </h1>
         <div className="flex flex-col pb-20">
           <div className="pr-8">
-            <h2 className="text-4xl  text-text-color pb-8 items-center justify-center flex">
+            <h2 className="text-3xl  text-text-color pb-8 items-center justify-center flex">
               Mockups
             </h2>
             <p className="text-justify text-text-color text-lg leading-relaxed pt-4 pb-8">
@@ -622,7 +659,7 @@ const FirstProjectPage = () => {
                 </div>
               </div>
               <div>
-                <span className="text-custom-blue">After usability study</span>
+                <span className="text-text-color">After usability study</span>
                 <img src={HeroImage2} alt="sec" className="pt-8 w-2/3" />
               </div>
             </div>
@@ -644,16 +681,18 @@ const FirstProjectPage = () => {
         </div>
         <div className="ml-24">
           <div className="flex flex-row ml-8">
-            <div>
+            <div className=" w-1/2">
               <span className="">Before usability study</span>
-              <div className="flex flex-row gap-4">
+              <div className="flex flex-row gap-16">
                 <img src={Before} alt="sec" className="pt-8 w-2/3" />
                 <BsArrowRight size={60} className="text-text-color mt-80" />
               </div>
             </div>
-            <div>
-              <span className="text-custom-blue">After usability study</span>
-              <img src={After} alt="sec" className="pt-8 w-2/3" />
+            <div className=" w-1/2 flex flex-col">
+              <span className="text-text-color pl-4 pt-2">
+                After usability study
+              </span>
+              <img src={After} alt="sec" className="pt-16 w-2/3" />
             </div>
           </div>
         </div>
@@ -663,13 +702,15 @@ const FirstProjectPage = () => {
         <h2 className="text-3xl text-text-color pb-8 flex items-center justify-center">
           Mockups
         </h2>
-        <div className="flex flex-wrap">
-          <img src={HeroImage1} alt="sec" className="w-1/2  p-2" />
-          <img src={HeroImage3} alt="sec" className="w-1/2  p-2" />
-        </div>
-        <div className="flex flex-wrap mt-8">
-          <img src={Form} alt="sec" className="w-1/2  p-2" />
-          <img src={Confirm} alt="sec" className="w-1/2  p-2" />
+        <div className="flex flex-row">
+          <div className="flex flex-wrap">
+            <img src={HeroImage1} alt="sec" className="w-1/2  p-2" />
+            <img src={HeroImage3} alt="sec" className="w-1/2  p-2" />
+          </div>
+          <div className="flex flex-wrap ">
+            <img src={Form} alt="sec" className="w-1/2  p-2" />
+            <img src={Confirm} alt="sec" className="w-1/2  p-2" />
+          </div>
         </div>
       </div>
 
@@ -686,14 +727,14 @@ const FirstProjectPage = () => {
             </p>
 
             <div className="flex items-center justify-center">
-              <img src={Prototype} alt="sec" />
+              <img src={Highfi} alt="sec" />
             </div>
             <br />
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col pt-20">
+      <div className="flex flex-col pt-12">
         <h1 className="text-3xl flex items-center justify-center text-text-color pt-4 pb-16">
           Accessibility Considerations{" "}
         </h1>
@@ -730,10 +771,10 @@ const FirstProjectPage = () => {
       </div>
 
       <div className="flex pt-20 flex-col">
-        <h1 className="flex text-3xl font-bold text-text-color py-20 items-center justify-center">
+        <h1 className="flex text-4xl font-bold text-text-color py-20 items-center justify-center">
           Going forward
         </h1>
-        <span className="text-4xl text-text-color flex items-center justify-center pb-20">
+        <span className="text-3xl text-text-color flex items-center justify-center pb-20">
           Takeaways
         </span>
 
@@ -741,19 +782,20 @@ const FirstProjectPage = () => {
           <div className="w-1/2 pr-8">
             <br />
             <p className="text-text-color text-justify text-lg leading-relaxed">
-              <b>Impact:</b>Users shared that the app design was clean,
-              intuitive and user friendly. One quote from a peer was “navigating
-              this app is so easy i do not need to figure out how to navigate as
-              a first time user.
+              <b className="text-xl">Impact:</b>Users shared that the app design
+              was clean, intuitive and user friendly. One quote from a peer was
+              “navigating this app is so easy i do not need to figure out how to
+              navigate as a first time user.
             </p>
           </div>
           <div className="w-1/2">
             <br />
             <p className="text-text-color text-justify text-lg leading-relaxed">
-              <b>What I learned:</b>I learned that even though the problem i was
-              trying to solve was big one, going through the entire design
-              process and aligning with specific user needs helped me come up
-              with innovative solutions that were both feasible and useful.
+              <b className="text-xl">What I learned:</b>I learned that even
+              though the problem i was trying to solve was big one, going
+              through the entire design process and aligning with specific user
+              needs helped me come up with innovative solutions that were both
+              feasible and useful.
             </p>
           </div>
         </div>
