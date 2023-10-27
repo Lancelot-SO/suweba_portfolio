@@ -4,7 +4,7 @@ import project4 from "./assets/10.jpeg";
 import homepage from "./assets/img/Homepage.png";
 import rectangle from "./assets/img/Rectangle.png";
 import rectangle1 from "./assets/img/Rectangle-1.png";
-import rectangle2 from "./assets/img/Rectangle-2.png";
+import rectangle2 from "./assets/img/AFA IMAGE.png";
 import rectangle3 from "./assets/img/Rectangle-3.png";
 import rectangle4 from "./assets/img/Rectangle-4.png";
 import rectangle5 from "./assets/img/Rectangle-5.png";
