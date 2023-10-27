@@ -30,12 +30,12 @@ const ProjectDetails = ({ item }) => {
         </a>
         <div className="flex flex-col items-center justify-center">
           <div className="flex flex-col items-center justify-center w-full py-3">
-            <button
+            <a
               onClick={openPopup}
-              className="cursor-pointer bg-custom-blue text-white w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-gray-700 text-center rounded-full"
+              className="cursor-pointer hover:underline   text-text-color w-1/2 px-6 py-3 m-4 text-center "
             >
               {item.title}
-            </button>
+            </a>
           </div>
         </div>
       </div>

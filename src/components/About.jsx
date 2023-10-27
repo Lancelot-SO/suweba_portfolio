@@ -37,46 +37,42 @@ function About() {
         <div className="md:w-1/2 p-4">
           <h1 className="text-2xl font-bold mb-4">Hello, I am Sidiki Alare</h1>
           <p className="text-text-color">
-            I'm a student with a passion for UX design and a background in
-            Customer Experience (CX). My journey in the world of user-centric
-            design began with a deep fascination for the way technology and
-            human interactions intertwine. Now, I'm eager to apply my CX
-            expertise to enhance digital experiences. Join me as I explore the
-            art of creating intuitive, user-friendly interfaces and forging
-            memorable connections between people and technology.
+            Hello, I'm Sidiki Suweiba Alare, a User Experience (UX) Designer
+            with a Customer Experience (CX) background who enjoys reading and
+            listening to music. My journey in the world of user-centric design
+            was driven by a strong interest in using customer experiences to
+            enhance digital experiences. Join me as we explore the art of
+            creating intuitive, user-friendly interfaces and forging memorable
+            connections between people and technology.
           </p>
-          <ul className="mt-4 flex justify-between items-center">
-            <li className="mr-3 flex flex-row gap-4 ">
+          <ul className="mt-4 flex items-end gap-4">
+            <li className="border-r h-4 border-text-color w-auto pr-2 flex items-end">
               <a
                 href={`mailto:${email}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-blue-500 border rounded-full p-2 hover:bg-custom-blue duration-200"
+                className="underline align-baseline"
               >
-                <GrMail
-                  size={30}
-                  className="text-custom-blue mt-1 hover:text-white"
-                />
+                Email
               </a>
+            </li>
+            <li className="border-r h-4 border-text-color w-auto pr-2 flex items-end">
               <a
                 href="https://www.linkedin.com/in/sidikialare/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-blue-500 border rounded-md p-2 hover:bg-custom-blue duration-200"
+                className="underline"
               >
-                <BsLinkedin
-                  size={25}
-                  className="text-custom-blue mt-1 hover:text-white"
-                />
+                LinkedIn
               </a>
             </li>
-            <li>
-              <button
+            <li className="w-auto pr-2 flex items-end">
+              <a
                 onClick={handleDownloadCV}
-                className="border border-blue-500 bg-white text-black px-4 py-2 rounded-full hover:bg-custom-blue hover:text-white duration-200"
+                className="underline align-baseline"
               >
-                Get Resume
-              </button>
+                Resume
+              </a>
             </li>
           </ul>
         </div>
