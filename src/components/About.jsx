@@ -1,8 +1,6 @@
 import React from "react";
-import { GrMail } from "react-icons/gr";
-import { BsLinkedin } from "react-icons/bs";
 import resumePDF from "../assets/Resume.pdf";
-import HeroImage from "../assets/hero.jpg";
+import HeroImage from "../assets/suweiba.jpg";
 
 function About() {
   const email = "sidikialare@gmail.com";
@@ -24,17 +22,18 @@ function About() {
       items-center justify-center h-full px-4 md:flex-row py-5"
       >
         {/* Image */}
-        <div className="mt-12 ml-5 md:mt-16 lg:mt-24 xl:mt-20">
-          <img
-            src={HeroImage}
-            alt="hero"
-            style={{ maxWidth: "90%" }}
-            className="rounded-md"
-          />
+        <div className="mt-12 ml-12 md:mt-16 lg:mt-24 xl:mt-20 mb-16">
+          <div className="w-60 h-60 md:w-48 md:h-48 lg:w-66 lg:h-66 xl:w-62 xl:h-62 rounded-full overflow-hidden">
+            <img
+              src={HeroImage}
+              alt="hero"
+              className="w-full h-full object-fit"
+            />
+          </div>
         </div>
 
         {/* Text */}
-        <div className="md:w-1/2 p-4">
+        <div className="md:w-1/2 p-8">
           <h1 className="text-2xl font-bold mb-4">Hello, I am Sidiki Alare</h1>
           <p className="text-text-color">
             Hello, I'm Sidiki Suweiba Alare, a User Experience (UX) Designer

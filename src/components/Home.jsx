@@ -7,10 +7,10 @@ function Home() {
     <div name="home" className="h-screen w-full bg-white text-text-color">
       <div
         className="max-w-screen-lg mx-auto flex flex-col
-      items-center justify-center h-full px-4 md:flex-row"
+      items-center justify-center h-full px-4 md:flex-col"
       >
         <div className="flex flex-col justify-center h-full">
-          <h1 className="text-4xl sm:text-7xl flex items-center justify-center  px-4 text-text-color">
+          <h1 className="text-4xl sm:text-7xl flex text-text-color">
             Hello, Welcome
           </h1>
           <h2 className="text-4xl sm:text-5xl font-bold">
@@ -29,13 +29,6 @@ function Home() {
               </span>
             </button>
           </a>
-        </div>
-        <div>
-          <img
-            src={HeroImage}
-            alt="Hero"
-            className="rounded-2xl mx-auto md:w-full w-2/3"
-          />
         </div>
       </div>
     </div>
