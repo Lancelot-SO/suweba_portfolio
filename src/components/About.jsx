@@ -34,7 +34,9 @@ function About() {
 
         {/* Text */}
         <div className="md:w-1/2 p-8">
-          <h1 className="text-2xl font-bold mb-4">Hello, I am Sidiki Alare</h1>
+          <h1 className="text-2xl font-bold mb-4">
+            Hello, I am Sidiki Suweiba Alare
+          </h1>
           <p className="text-text-color">
             Hello, I'm Sidiki Suweiba Alare, a User Experience (UX) Designer
             with a Customer Experience (CX) background who enjoys reading and
