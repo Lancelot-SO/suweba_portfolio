@@ -10,16 +10,11 @@ function Home() {
       items-center justify-center h-full px-4 md:flex-col"
       >
         <div className="flex flex-col justify-center h-full">
-          <h1 className="text-4xl sm:text-7xl flex text-text-color">
-            Hello, Welcome
-          </h1>
-          <h2 className="text-4xl sm:text-5xl font-bold">
-            I'm a UI/UX Designer
-          </h2>
-          <p className="py-4 text-text-color">
-            I have 10 years of experience designing projects for clients all
-            over the world. Currently, I love to use Figma and Adobe Photoshop
-            for my projects.
+          <h1 className="text-4xl sm:text-7xl flex text-text-color">Hello,</h1>
+          <h2 className="text-4xl sm:text-5xl font-bold"></h2>
+          <p className="py-4 text-text-color text-4xl">
+            Welcome to my creative world of crafting exceptional User
+            Experiences!{" "}
           </p>
           <a href="/projects">
             <button className="group w-fit text-text-color px-6 py-3  my-2 flex items-center cursor-pointer rounded-md border border-text-color hover:scale-105">
