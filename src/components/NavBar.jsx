@@ -91,13 +91,13 @@ function NavBar() {
         className="cursor-pointer pr-4 z-10 md:hidden"
       >
         {nav ? (
-          <FaTimes className="text-custom-blue" size={30} />
+          <FaTimes className="text-text-color" size={30} />
         ) : (
-          <FaBars className="text-custom-blue" size={30} />
+          <FaBars className="text-text-color" size={30} />
         )}
       </div>
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-white text-custom-blue">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-white text-text-color">
           {links.map(({ id, link, href }, index) => (
             <li
               key={id}

@@ -24,7 +24,7 @@ function Home() {
           <a href="/projects">
             <button className="group w-fit text-text-color px-6 py-3  my-2 flex items-center cursor-pointer rounded-md border border-text-color hover:scale-105">
               Projects
-              <span className="group-hover:rotate-90 duration-300">
+              <span className="group-hover:scale-150 duration-300">
                 <BsArrowRight size={25} className="ml-1" />
               </span>
             </button>

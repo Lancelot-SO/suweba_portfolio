@@ -1,14 +1,14 @@
 import project2 from "./assets/8.jpeg";
 import project1 from "./assets/4.jpeg";
 import project4 from "./assets/10.jpeg";
-import homepage from "./assets/img/Homepage.png";
+import homepage from "./assets/img/Learning app image.png";
 import rectangle from "./assets/img/Rectangle.png";
 import rectangle1 from "./assets/img/Rectangle-1.png";
 import rectangle2 from "./assets/img/AFA IMAGE.png";
 import rectangle3 from "./assets/img/Rectangle-3.png";
 import rectangle4 from "./assets/img/Rectangle-4.png";
 import rectangle5 from "./assets/img/Rectangle-5.png";
-import homepage2 from "./assets/img/Homepage2.png";
+import homepage2 from "./assets/img/Mobile App Image.png";
 import menu from "./assets/img/Menu.png";
 import profile from "./assets/img/Profile2.png";
 import transfer from "./assets/img/Transfer.png";
@@ -47,11 +47,11 @@ export const projectsData = [
   {
     id: "3",
     src: rectangle2,
-    src2: project2,
-    src3: project4,
-    src4: project1,
+    src2: rectangle3,
+    src3: rectangle4,
+    src4: rectangle5,
     href: "/thirdprojectpage",
-    title: "Project 3",
+    title: "Smart Farmer App",
     description: "Description of Project 3.",
   },
 ];
