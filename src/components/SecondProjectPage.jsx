@@ -21,7 +21,7 @@ import enroll from "../assets/Learning Platform/Enroll.png";
 
 const SecondProjectPage = () => {
   return (
-    <div className="w-full py-4 px-12">
+    <div className="w-full py-4 px-4 lg:px-12">
       <h1 className="text-4xl font-bold text-text-color py-20">
         Design A Way To Help Tutor Teenagers In Financial Skills{" "}
       </h1>
@@ -59,8 +59,8 @@ const SecondProjectPage = () => {
         </div>
       </div>
 
-      <div className="flex pt-20">
-        <div className="w-1/2 pr-8">
+      <div className="flex flex-col lg:flex-row xl:flex-row pt-20">
+        <div className="w-full pr-8">
           <p className="text-xl text-text-color font-bold pt-4">The problem:</p>
           <br />
           <p className="text-text-color text-justify text-lg leading-relaxed">
@@ -71,7 +71,7 @@ const SecondProjectPage = () => {
             understand financial skills.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="w-full pt-8 sm:pt-0">
           <p className="text-text-color font-bold pt-4 text-xl">The goal:</p>
           <br />
           <p className="text-text-color text-justify text-lg leading-relaxed">
@@ -85,20 +85,20 @@ const SecondProjectPage = () => {
         </div>
       </div>
 
-      <div className="flex pt-20">
-        <div className="w-1/2 pr-8">
+      <div className="flex flex-col lg:flex-row xl:flex-row pt-20 ">
+        <div className="w-full pr-8">
           <p className="text-text-color font-bold pt-4 text-xl">My role:</p>
           <br />
           <p className="text-justify text-lg leading-relaxed text-text-color">
             UX designer and UX researcher,
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="w-full">
           <p className="text-text-color font-bold pt-4 text-xl">
             Responsibilities:
           </p>
           <br />
-          <p className="text-justify text-lg leading-relaxed">
+          <p className="text-justify text-lg leading-relaxed px-2 lg:px-0">
             <ul className="list-disc text-text-color">
               <li>
                 Designed the visual elements of the interface, including
@@ -149,107 +149,111 @@ const SecondProjectPage = () => {
           <h2 className="text-3xl flex items-center justify-center pt-4 pb-4">
             User Research: Summary
           </h2>
-          <div className="">
-            <div className="">
-              <p className="text-text-color text-justify text-lg leading-relaxed  py-12 px-12">
-                A detailed approach was adopted to gain insights into user needs
-                and user pain points. Interviews and surveys were conducted
-                among teenagers. Most participants reported the existing
-                learning platforms came with a cost. Participants wanted a
-                dedicated learning platform that catered to learning financial
-                skills in a hands on practical way. They wanted a simple way to
-                understand complex topics. The feedback received through
-                research made it very clear that users were willing to learn
-                financial skills and not abandon the program if the modules were
-                taught in a simple way for participants to grasp and understand.
-              </p>
-            </div>
+          <div className="py-4 px-4 sm:py-12 sm:px-12">
+            <p className="text-text-color text-justify text-lg leading-relaxed">
+              A detailed approach was adopted to gain insights into user needs
+              and user pain points. Interviews and surveys were conducted among
+              teenagers. Most participants reported the existing learning
+              platforms came with a cost. Participants wanted a dedicated
+              learning platform that catered to learning financial skills in a
+              hands-on practical way. They wanted a simple way to understand
+              complex topics. The feedback received through research made it
+              very clear that users were willing to learn financial skills and
+              not abandon the program if the modules were taught in a simple way
+              for participants to grasp and understand.
+            </p>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-row pt-20">
-        <div className="w-1/3 pr-8">
-          <h1 className="text-2xl flex flex-row gap-4 text-text-color pt-4 pb-16">
-            Persona: <span className="text-text-color font-bold">Amawen</span>
-          </h1>
-          <span className="text-text-color font-bold text-xl">
-            Problem statement:
-          </span>
-          <p className="text-justify text-md leading-relaxed pt-4 text-text-color">
-            Amawen is a high school student who needs to learn financial skills
-            to manage his allowances because the available programs makes it
-            difficult for him to learn.
-          </p>
-        </div>
-        <div class="w-2/3 p-4 flex flex-row">
-          <div className="w-1/3 flex flex-col">
-            <img src={persona1} alt="ps" className="w-80 h-60  p-2" />
-            <span className="mb-8 ml-20 font-bold text-text-color">Amawen</span>
-            <table class="ml-8 w-1/2 table-auto">
-              <tr>
-                <td class="font-bold pr-4">Age:</td>
-                <td className="text-text-color">23</td>
-              </tr>
-              <tr>
-                <td class="font-bold pr-4">Education:</td>
-                <td className="text-text-color">College</td>
-              </tr>
-              <tr>
-                <td class="font-bold pr-4">Hometown:</td>
-                <td className="text-text-color">Accra, Gh.</td>
-              </tr>
-              <tr>
-                <td class="font-bold pr-4">Family:</td>
-                <td className="text-text-color">Single</td>
-              </tr>
-              <tr>
-                <td class="font-bold pr-4">Occupation:</td>
-                <td className="text-text-color">Tailor</td>
-              </tr>
-            </table>
-          </div>
-          <div className="w-2/3 flex flex-col">
-            <span class="text-xl italic  ml-16 flex items-center text-text-color">
-              “Changing the narrative through fashion”
+      <div className="">
+        <div className="flex flex-col lg:flex-row pt-20">
+          <div className="w-full pr-8">
+            <h1 className="text-2xl flex flex-row gap-4 text-text-color pt-4 pb-16">
+              Persona: <span className="text-text-color font-bold">Amawen</span>
+            </h1>
+            <span className="text-text-color font-bold text-xl">
+              Problem statement:
             </span>
-            <div className="flex flex-row gap-4 mt-20 ml-12">
-              <div>
-                <span className="text-text-color font-bold">Goals:</span>
-                <ul className="list-disc ml-8 text-text-color">
-                  <li>Instantly send funds.</li>
-                  <li>
-                    To use an app which is secure and protects customer data.
-                  </li>
-                  <li>Use an app which is easy to navigate.</li>
-                </ul>
-              </div>
-              <div>
-                <span className="text-text-color font-bold">Frustrations</span>
-                <ul className="list-disc ml-8 text-text-color">
-                  <li>Restrictions on transfer/payment amounts.</li>
-                  <li>Concerned about high charges/fees.</li>
-                  <li>
-                    Worried about weak security associated with payment apps.
-                  </li>
-                </ul>
-              </div>
+            <p className="text-justify text-md leading-relaxed pt-4 text-text-color">
+              Amawen is a high school student who needs to learn financial
+              skills to manage his allowances because the available programs
+              makes it difficult for him to learn.
+            </p>
+          </div>
+          <div class="w-full p-4 flex flex-col lg:flex-row">
+            <div className="w-full lg:w-1/3 flex flex-col">
+              <img src={persona1} alt="ps" className="w-80 h-60  p-2" />
+              <span className="mb-8 ml-20 font-bold text-text-color">
+                Amawen
+              </span>
+              <table class="ml-8 w-1/2 table-auto">
+                <tr>
+                  <td class="font-bold pr-4">Age:</td>
+                  <td className="text-text-color">23</td>
+                </tr>
+                <tr>
+                  <td class="font-bold pr-4">Education:</td>
+                  <td className="text-text-color">College</td>
+                </tr>
+                <tr>
+                  <td class="font-bold pr-4">Hometown:</td>
+                  <td className="text-text-color">Accra, Gh.</td>
+                </tr>
+                <tr>
+                  <td class="font-bold pr-4">Family:</td>
+                  <td className="text-text-color">Single</td>
+                </tr>
+                <tr>
+                  <td class="font-bold pr-4">Occupation:</td>
+                  <td className="text-text-color">Tailor</td>
+                </tr>
+              </table>
             </div>
-            <div class="border border-text-color mx-auto my-8 ml-4">
-              <p className="p-4 text-text-color">
-                Amawen is a 17 year old high school student. They live with
-                their parents and two siblings. Their parents have a busy
-                schedule and barely make time to teach financial literacy.
-                Amawen wants to understand how to manage finances and gain
-                financial independence as they plan for college.
-              </p>
+            <div className="w-full lg:w-2/3 flex flex-col">
+              <span class="text-xl italic  ml-8 lg:ml-16 flex items-center text-text-color">
+                “Changing the narrative through fashion”
+              </span>
+              <div className="flex flex-col lg:flex-row gap-4 mt-20 ml-8 lg:12">
+                <div>
+                  <span className="text-text-color font-bold">Goals:</span>
+                  <ul className="list-disc ml-8 text-text-color">
+                    <li>Instantly send funds.</li>
+                    <li>
+                      To use an app which is secure and protects customer data.
+                    </li>
+                    <li>Use an app which is easy to navigate.</li>
+                  </ul>
+                </div>
+                <div>
+                  <span className="text-text-color font-bold">
+                    Frustrations
+                  </span>
+                  <ul className="list-disc ml-8 text-text-color">
+                    <li>Restrictions on transfer/payment amounts.</li>
+                    <li>Concerned about high charges/fees.</li>
+                    <li>
+                      Worried about weak security associated with payment apps.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="border border-text-color mx-auto my-8 lg:ml-4">
+                <p className="p-4 text-text-color">
+                  Amawen is a 17 year old high school student. They live with
+                  their parents and two siblings. Their parents have a busy
+                  schedule and barely make time to teach financial literacy.
+                  Amawen wants to understand how to manage finances and gain
+                  financial independence as they plan for college.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-row pt-20">
-        <div className="w-1/3 pr-8">
+      <div className="flex flex-col pt-20 lg:flex-row">
+        <div className="w-full pr-8">
           <h1 className="text-2xl flex flex-row gap-4 text-text-color pt-4 pb-16">
             Persona: <span className="text-text-color font-bold">Apuingle</span>
           </h1>
@@ -262,8 +266,8 @@ const SecondProjectPage = () => {
             environment is not personalized.
           </p>
         </div>
-        <div class="w-2/3 p-4 flex flex-row">
-          <div className="w-1/3 flex flex-col">
+        <div class="w-full p-4 flex flex-col lg:flex-row">
+          <div className="w-full lg:w-1/3 flex flex-col">
             <img src={persona2} alt="ps" className="w-80 h-60 p-2" />
             <span className="mb-8 ml-20 font-bold text-text-color">
               Apuingle
@@ -291,11 +295,11 @@ const SecondProjectPage = () => {
               </tr>
             </table>
           </div>
-          <div className="w-2/3 flex flex-col">
-            <span class="text-xl italic  ml-16 flex items-center text-text-color">
+          <div className="w-full lg:w-2/3 flex flex-col">
+            <span class="text-xl italic ml8 lg:ml-16 flex items-center text-text-color">
               “Changing the narrative through fashion.”
             </span>
-            <div className="flex flex-row gap-4 mt-12 ml-12">
+            <div className="flex flex-col lg:flex-row gap-4 mt-20 lg:ml-8 lg:12">
               <div>
                 <span className="text-text-color font-bold">Goals:</span>
                 <ul className="list-disc ml-8 text-text-color">
@@ -315,7 +319,7 @@ const SecondProjectPage = () => {
                 </ul>
               </div>
             </div>
-            <div class="border border-text-color mx-auto my-8 ml-4">
+            <div class="border border-text-color mx-auto my-8 lg:ml-4">
               <p className="p-4 text-text-color">
                 Apuingle is a 16 year old high school graduate with dyslexia.
                 They recently migrated to Gh and lives with their parents and 4
@@ -383,23 +387,31 @@ const SecondProjectPage = () => {
                 teaching the subjects.
               </p>
             </div>
-            <div className=" flex items-center justify-center">
-              <div className="flex flex-row w-80 mb-80">
+            <div className="flex items-center justify-center">
+              <div className="text-text-color flex-row text-center sm:text-left hidden sm:flex">
                 <span className="text-text-color">
-                  Tips on the various finance subjects a learner can enroll on{" "}
+                  Tips on the various finance subjects a learner can enroll in
                 </span>
-                <BsArrowRight size={80} className="text-text-color" />
+                <BsArrowRight
+                  size={80}
+                  className="text-text-color inline-block mt-2"
+                />
               </div>
+
               <img
                 src={wireframe}
                 alt="sec"
-                className="w-80 h-100 border border-text-color"
+                className="lg:w-80 lg:h-100 border border-text-color"
               />
-              <div className="flex flex-row w-80 mt-40 ">
-                <BsArrowLeft size={160} className="text-text-color" />
+
+              <div className="text-text-color flex-row text-center sm:text-left hidden sm:flex">
+                <BsArrowLeft
+                  size={80}
+                  className="text-text-color inline-block mb-2"
+                />
                 <span className="text-text-color">
-                  Information on the instructors to provide learners with a
-                  information to make a decision before enrolling on a course{" "}
+                  Information on the instructors to provide learners with
+                  information to make a decision before enrolling in a course.
                 </span>
               </div>
             </div>
@@ -409,7 +421,7 @@ const SecondProjectPage = () => {
 
       <div className="flex flex-col pt-20">
         <div className="flex flex-col">
-          <div className=" pr-8">
+          <div className="pr-8">
             <h2 className="text-3xl text-text-color pb-8 flex items-center justify-center">
               Low-fidelity Prototype
             </h2>
@@ -422,7 +434,7 @@ const SecondProjectPage = () => {
             </p>
             <br />
             <div className="flex items-center justify-center">
-              <img src={Prototype} alt="sec" className="w-3/3 h-2/3" />
+              <img src={Prototype} alt="sec" className="w-3/3 h-3/3 lg:h-2/3" />
             </div>
           </div>
         </div>
@@ -437,7 +449,7 @@ const SecondProjectPage = () => {
           below.
         </span>
 
-        <div className="flex flex-row ml-20 gap-16">
+        <div className="flex flex-col lg:flex-row ml-20 gap-16">
           <div className="flex flex-col">
             <span className="text-text-color w-16 h-16 font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
               1
@@ -495,12 +507,12 @@ const SecondProjectPage = () => {
               accessibility guidelines.
             </p>
           </div>
-          <div className="ml-24">
-            <div className="flex flex-row ml-8">
-              <div className=" w-1/2 ">
+          <div className="ml-10 lg:ml-24">
+            <div className="flex flex-col lg:flex-row ml-8">
+              <div className=" w-1/2 pb-4">
                 <span className="">Before usability study</span>
                 <div className="flex flex-row gap-16">
-                  <img src={before} alt="sec" className="pt-8 w-2/3" />
+                  <img src={before} alt="sec" className="pt-8 w-3/3 lg:w-2/3" />
                   <BsArrowRight size={60} className="text-text-color mt-80" />
                 </div>
               </div>
@@ -508,7 +520,11 @@ const SecondProjectPage = () => {
                 <span className="text-text-color pl-4 pt-2">
                   After usability study
                 </span>
-                <img src={enroll} alt="sec" className="pt-16 w-2/3" />
+                <img
+                  src={enroll}
+                  alt="sec"
+                  className="pt-8 lg:pt-16 lg:w-2/3 w-3/3"
+                />
               </div>
             </div>
           </div>
@@ -526,12 +542,16 @@ const SecondProjectPage = () => {
               accessibility guidelines.
             </p>
           </div>
-          <div className="ml-24">
-            <div className="flex flex-row ml-8">
-              <div className=" w-1/2">
+          <div className="ml-10 lg:ml-24">
+            <div className="flex flex-col lg:flex-row ml-8">
+              <div className=" w-1/2 pb-4">
                 <span className="">Before usability study</span>
                 <div className="flex flex-row gap-16">
-                  <img src={Discover1} alt="sec" className="pt-8 w-2/3" />
+                  <img
+                    src={Discover1}
+                    alt="sec"
+                    className="pt-8  w-3/3 lg:w-2/3"
+                  />
                   <BsArrowRight size={60} className="text-text-color mt-80" />
                 </div>
               </div>
@@ -539,7 +559,11 @@ const SecondProjectPage = () => {
                 <span className="text-text-color pl-4 pt-2">
                   After usability study
                 </span>
-                <img src={Discover} alt="sec" className="pt-16 w-2/3" />
+                <img
+                  src={Discover}
+                  alt="sec"
+                  className="lg:pt-16 lg:w-2/3 w-3/3"
+                />
               </div>
             </div>
           </div>
@@ -550,7 +574,7 @@ const SecondProjectPage = () => {
         <h2 className="text-3xl text-text-color pb-8 flex items-center justify-center">
           Mockups
         </h2>
-        <div className="flex flex-row">
+        <div className="flex flex-col lg:flex-row">
           <div className="flex flex-wrap">
             <img src={Discover} alt="sec" className="w-1/2  p-2" />
             <img src={enroll} alt="sec" className="w-1/2  p-2" />
@@ -586,7 +610,7 @@ const SecondProjectPage = () => {
           Accessibility Considerations
         </h1>
 
-        <div className="flex flex-row ml-20 gap-16">
+        <div className="flex flex-col lg:flex-row ml-4 lg:ml-20 gap-16">
           <div className="flex flex-col">
             <span className=" w-16 h-16 font-bold text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
               1
@@ -635,14 +659,14 @@ const SecondProjectPage = () => {
               users.
             </p>
           </div>
-          <div class="p-4">
+          <div class="p-4 mr-4 lg:mr-0">
             <img src={Sidemap} alt="ps" className="" />
           </div>
         </div>
       </div>
 
       <div className="flex flex-col ">
-        <div className="flex flex-row pt-20">
+        <div className="flex flex-col lg:flex-row pt-20">
           <div>
             <span className="ml-8 text-text-color">Mobile App</span>
             <img src={mobile} alt="mob" />
@@ -668,8 +692,8 @@ const SecondProjectPage = () => {
           Takeaways
         </h2>
 
-        <div className="flex pt-12">
-          <div className="w-1/2 pr-8">
+        <div className="flex flex-col pt-12 lg:flex lg:pt-12">
+          <div className="w-full lg:w-1/2 pr-8">
             <p className="text-text-color font-bold pt-4">Impact:</p>
             <br />
             <p className="text-text-color  text-justify text-lg leading-relaxed">
@@ -679,7 +703,7 @@ const SecondProjectPage = () => {
               go helping me make smart financial decisions.
             </p>
           </div>
-          <div className="w-1/2">
+          <div className="w-full lg:w-1/2">
             <p className="text-text-color font-bold pt-4">What I learned:</p>
             <br />
             <p className="text-text-color  text-justify text-lg leading-relaxed">
@@ -696,7 +720,7 @@ const SecondProjectPage = () => {
         <h1 className="text-3xl flex items-center justify-center text-text-color pt-4 pb-12">
           Next steps{" "}
         </h1>
-        <div className="flex flex-row ml-20 gap-16">
+        <div className="flex flex-col lg:flex-row ml-20 gap-16">
           <div className="flex flex-col">
             <span className=" w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
               1

@@ -1,10 +1,9 @@
 import React from "react";
-import HeroImage from "../assets/hero1.jpg";
 import { BsArrowRight } from "react-icons/bs";
 
 function Home() {
   return (
-    <div name="home" className="h-screen w-full bg-white text-text-color">
+    <div className="h-screen w-full bg-white text-text-color">
       <div
         className="max-w-screen-lg mx-auto flex flex-col
       items-center justify-center h-full px-4 md:flex-col"
