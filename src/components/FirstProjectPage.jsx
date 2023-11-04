@@ -173,10 +173,10 @@ const FirstProjectPage = () => {
         </h1>
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="flex flex-col">
-            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
+            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-28 lg:ml-8">
               1
             </span>
-            <p className="text-xl leading-relaxed pb-4 text-text-color font-bold">
+            <p className="text-xl ml-28 lg:ml-8 leading-relaxed pb-4 text-text-color font-bold">
               Pain point
             </p>
             <p className="text-xl leading-relaxed text-text-color">
@@ -185,10 +185,10 @@ const FirstProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
+            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-28 lg:ml-8">
               2
             </span>
-            <p className="text-xl leading-relaxed pb-4 text-text-color font-bold">
+            <p className="text-xl leading-relaxed ml-28 lg:ml-8 pb-4 text-text-color font-bold">
               Pain point
             </p>
             <p className="text-lg leading-relaxed text-text-color">
@@ -197,10 +197,10 @@ const FirstProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
+            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-28 lg:ml-8">
               3
             </span>
-            <p className="text-xl leading-relaxed pb-4 text-text-color font-bold">
+            <p className="text-xl leading-relaxed pb-4 text-text-color ml-28 lg:ml-8 font-bold">
               Pain point
             </p>
             <p className="text-lg leading-relaxed text-text-color">
@@ -210,10 +210,10 @@ const FirstProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
+            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-28 lg:ml-8">
               4
             </span>
-            <p className="text-xl text-justify text-md leading-relaxed pb-4 text-text-color font-bold">
+            <p className="text-xl text-justify text-md leading-relaxed pb-4 text-text-color font-bold ml-28 lg:ml-8">
               Pain point
             </p>
             <p className="text-justify text-md leading-relaxed text-text-color">
@@ -604,7 +604,7 @@ const FirstProjectPage = () => {
                 Round 1 findings
               </h2>
               <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
-                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
+                <div className="flex  w-10 h-10 items-center ml-20 lg:ml-0 justify-center rounded-full text-text-color font-bold text-2xl">
                   1
                 </div>
                 <span className="flex items-center text-text-color pr-20">
@@ -612,7 +612,7 @@ const FirstProjectPage = () => {
                 </span>
               </div>
               <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
-                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
+                <div className="flex  w-10 h-10 ml-20 lg:ml-0 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   2
                 </div>
                 <span className="flex items-center text-text-color pr-20">
@@ -620,7 +620,7 @@ const FirstProjectPage = () => {
                 </span>
               </div>
               <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
-                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
+                <div className="flex  w-10 h-10 ml-20 lg:ml-0 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   3
                 </div>
                 <span className="flex items-center text-text-color pr-20">
@@ -634,7 +634,7 @@ const FirstProjectPage = () => {
                 Round 2 findings
               </h2>
               <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
-                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
+                <div className="flex ml-20 lg:ml-0 w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   1
                 </div>
                 <span className="flex items-center text-text-color pr-20">
@@ -642,7 +642,7 @@ const FirstProjectPage = () => {
                 </span>
               </div>
               <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
-                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
+                <div className="flex ml-20 lg:ml-0 w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   2
                 </div>
                 <span className="flex items-center text-text-color pr-20">
@@ -650,7 +650,7 @@ const FirstProjectPage = () => {
                 </span>
               </div>
               <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
-                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
+                <div className="flex ml-20 lg:ml-0 w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   3
                 </div>
                 <span className="flex items-center text-text-color pr-20">
@@ -783,7 +783,7 @@ const FirstProjectPage = () => {
         </h1>
         <div className="flex flex-col lg:flex-row ml-4 lg:ml-20 gap-16">
           <div className="flex flex-col">
-            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
+            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-24 lg:ml-16">
               1
             </span>
 
@@ -793,7 +793,7 @@ const FirstProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
+            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-24 lg:ml-16">
               2
             </span>
 
@@ -802,7 +802,7 @@ const FirstProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
+            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-24 lg:ml-16">
               3
             </span>
             <p className="text-text-color text-lg leading-relaxed">
@@ -850,7 +850,7 @@ const FirstProjectPage = () => {
         </h1>
         <div className="flex flex-col lg:flex-row ml-12 lg:ml-20 gap-16">
           <div className="flex flex-col">
-            <span className=" w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
+            <span className=" w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-24 lg:ml-16">
               1
             </span>
 
@@ -860,7 +860,7 @@ const FirstProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
+            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-24 lg:ml-16">
               2
             </span>
 
@@ -869,7 +869,7 @@ const FirstProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
+            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-24 lg:ml-16">
               3
             </span>
             <p className="text-text-color text-lg leading-relaxed">
