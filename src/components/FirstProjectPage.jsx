@@ -16,7 +16,7 @@ import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 
 const FirstProjectPage = () => {
   return (
-    <div className="w-full py-4 px-12">
+    <div className="w-full px-4 py-4 lg:px-12">
       {/* Add padding-top to create space below the NavBar */}
       <h1 className="text-4xl font-bold text-text-color py-20">
         Redesigning A Payment Application for a seamless User Experience
@@ -44,17 +44,29 @@ const FirstProjectPage = () => {
             </div>
           </div>
         </div>
-        <div class="flex flex-col">
-          <div class="flex px-24 ">
-            <img src={HeroImage1} alt="sec" class="pt-8 w-screen h-screen" />
-            <img src={HeroImage2} alt="sec" class="pt-8 w-screen h-screen" />
-            <img src={HeroImage3} alt="sec" class="pt-8 w-screen h-screen" />
+        <div class="flex flex-col lg:flex-row">
+          <div class="flex px-24 flex-col lg:flex-row">
+            <img
+              src={HeroImage1}
+              alt="sec"
+              class="pt-8 lg:w-screen lg:h-screen w-full h-full"
+            />
+            <img
+              src={HeroImage2}
+              alt="sec"
+              class="pt-8 lg:w-screen lg:h-screen w-full h-full"
+            />
+            <img
+              src={HeroImage3}
+              alt="sec"
+              class="pt-8 lg:w-screen lg:h-screen w-full h-full"
+            />
           </div>
         </div>
       </div>
 
-      <div className="flex pt-20">
-        <div className="w-1/2 pr-8">
+      <div className="flex lg:flex-row flex-col pt-20">
+        <div className="lg:w-1/2 w-full pr-8">
           <p className="text-text-color font-bold pt-4 text-xl">The problem:</p>
           <br />
           <p className="text-justify text-lg leading-relaxed text-text-color">
@@ -64,7 +76,7 @@ const FirstProjectPage = () => {
             business opportunities.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2 w-full">
           <p className="text-text-color font-bold pt-4 text-xl">The goal:</p>
           <br />
           <p className="text-justify text-lg leading-relaxed text-text-color">
@@ -75,20 +87,20 @@ const FirstProjectPage = () => {
         </div>
       </div>
 
-      <div className="flex pt-20">
-        <div className="w-1/2 pr-8">
+      <div className="flex lg:flex-row flex-col pt-20">
+        <div className="lg:w-1/2 pr-8">
           <p className="text-text-color font-bold pt-4 text-xl">My role:</p>
           <br />
           <p className="text-justify text-text-color text-lg leading-relaxed">
             UX designer and UX researcher,
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           <p className="text-text-color font-bold pt-4 text-xl">
             Responsibilities:
           </p>
           <br />
-          <p className="text-justify text-text-color text-lg leading-relaxed">
+          <p className="text-justify text-text-color text-lg leading-relaxed px-2 lg:px-0">
             <ul className="list-disc text-text-color">
               <li>
                 Designed the visual elements of the interface, including
@@ -140,8 +152,8 @@ const FirstProjectPage = () => {
             User Research: Summary
           </h2>
           <div className="">
-            <div className="">
-              <p className="text-justify text-lg leading-relaxed text-text-color py-4 px-12">
+            <div className="px-4">
+              <p className="px-4 text-justify text-lg leading-relaxed text-text-color py-4 sm:px-12">
                 A detailed approach was adopted to gain insights into user needs
                 and user pain points. Interview and survey were conducted. Most
                 of the participants reported frustrations with existing banking
@@ -159,7 +171,7 @@ const FirstProjectPage = () => {
         <h1 className="text-3xl flex items-center justify-center  text-text-color pt-4 pb-16">
           User Research: Pain Points
         </h1>
-        <div className="flex flex-row gap-8">
+        <div className="flex flex-col lg:flex-row gap-8">
           <div className="flex flex-col">
             <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
               1
@@ -213,8 +225,8 @@ const FirstProjectPage = () => {
         </div>
       </div>
 
-      <div className="flex flex-row pt-20">
-        <div className="w-1/3 pr-8">
+      <div className="flex flex-col lg:flex-row pt-20">
+        <div className="lg:w-1/3 w-full pr-8">
           <h1 className="text-2xl flex flex-row gap-4 text-text-color pt-4 pb-16">
             Persona: <span className="text-text-color font-bold">Atul</span>
           </h1>
@@ -228,18 +240,18 @@ const FirstProjectPage = () => {
             she is concerned about the security of these apps.
           </p>
         </div>
-        <div class="w-2/3 p-4">
+        <div class="lg:w-2/3 w-full p-4">
           <div class="flex items-start flex-col">
             <div className="flex flex-col">
-              <div class="mr-4 flex items-center">
+              <div class="mr-4 flex flex-col lg:flex-row items-center">
                 <div className="p-1">
-                  <img src={Persona} alt="sec" className=" w-40 h-30" />
+                  <img src={Persona} alt="sec" className=" lg:w-40 lg:h-30" />
                 </div>
-                <span class="italic mt-12 ml-16 flex items-center text-text-color">
+                <span class="italic mt-12 lg:ml-16 flex items-center text-text-color">
                   “Changing the narrative through fashion.”
                 </span>
               </div>
-              <table class="mt-4 ml-16">
+              <table class="mt-4 lg:ml-16">
                 <tr>
                   <td class="font-bold">Age:</td>
                   <td className="text-text-color">23</td>
@@ -263,7 +275,7 @@ const FirstProjectPage = () => {
               </table>
             </div>
 
-            <div className="flex flex-row gap-4">
+            <div className="flex lg:flex-row flex-col gap-4">
               <div>
                 <span className="text-text-color font-bold">Goals:</span>
                 <ul className="list-disc ml-8 text-text-color">
@@ -285,7 +297,7 @@ const FirstProjectPage = () => {
                 </ul>
               </div>
             </div>
-            <div class="border border-text-color mx-auto my-12">
+            <div class="border border-text-color mx-auto my-8 lg:ml-4">
               <p className="p-4 text-text-color">
                 Atul is a 23 year old tailor who has dyslexia and lives with her
                 mum. She sews ready made garments and buys items from different
@@ -324,167 +336,174 @@ const FirstProjectPage = () => {
                 Goal: A fast and easy way to pay suppliers
               </span>
             </div>
-            <table class="table-fixed border border-collapse border-black w-full">
-              <thead>
-                <tr>
-                  <th class="w-1/6 border border-black p-4">Action</th>
-                  <th class="w-1/6 border border-black p-4 text-text-color">
-                    Select a payment app
-                  </th>
-                  <th class="w-1/6 border border-black p-4 text-text-color">
-                    Browse the features
-                  </th>
-                  <th class="w-1/6 border border-black p-4 text-text-color">
-                    Decide on a transaction
-                  </th>
-                  <th class="w-1/6 border border-black p-4 text-text-color">
-                    Complete a transaction
-                  </th>
-                  <th class="w-1/6 border border-black p-4 text-text-color">
-                    Receive advice
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="w-1/6 border border-black p-4 font-bold">
-                    Task List
-                  </td>
-                  <td class="w-2/6 border border-black p-4">
-                    <div className=" flex flex-col text-text-color">
-                      <span className="pb-2">Tasks</span>
-                      <span>A. Decide on a payment method</span>
-                      <span>
-                        B. Search for payment apps via the stores or browser
-                      </span>
-                      <span>
-                        C. Check security review and select a payment app
-                      </span>
-                    </div>
-                  </td>
-                  <td class="w-2/6 border border-black p-4">
-                    <div className=" flex flex-col text-text-color">
-                      <span className="pb-2">Tasks</span>
-                      <span className="mt-12">
-                        A. Browse online or the stores
-                      </span>
-                      <span>
-                        B. Download the application via the stores/access online
-                      </span>
-                      <span>C. View features</span>
-                    </div>
-                  </td>
-                  <td class="w-2/6 border border-black p-4">
-                    <div className=" flex flex-col text-text-color">
-                      <span className="pb-2">Tasks</span>
-                      <span className="mt-12">
-                        A. Provide payment information
-                      </span>
-                      <span>B. Choose transaction type</span>
-                      <span>C. Submit beneficiary details</span>
-                    </div>
-                  </td>
-                  <td class="w-2/6 border border-black p-4">
-                    {" "}
-                    <div className=" flex flex-col text-text-color">
-                      <span className="pb-2">Tasks</span>
-                      <span className="mt-16">A. View Charges/fees</span>
-                      <span className="mb-10">B. Confirm payment details</span>
-                    </div>
-                  </td>
-                  <td class="w-2/6 border border-black p-4">
-                    <div className=" flex flex-col text-text-color">
-                      <span className="pb-2">Tasks</span>
-                      <span className="mt-20">A. View payment status</span>
-                      <span>B. Notification of the status of the payment</span>
-                      <span>C. View payment device</span>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="w-1/6 border border-black p-4 font-bold">
-                    Emotions
-                  </td>
-                  <td class="w-2/6 border border-black p-4 text-text-color">
-                    <div>
-                      <span>Overwhelmed by number of payment options</span>
-                      <span>Excited to find one they like</span>
-                    </div>
-                  </td>
-                  <td class="w-2/6 border border-black p-4 text-text-color">
-                    <div>
-                      <span>
-                        Annoyed at large amount of texts with tiny font sizes
-                        and limited visuals{" "}
-                      </span>
-                    </div>
-                  </td>
-                  <td class="w-2/6 border border-black p-4 text-text-color">
-                    <div>
-                      <span>
-                        Dissatisfied with scrolling to find appropriate function
-                      </span>
-                    </div>
-                  </td>
-                  <td class="w-2/6 border border-black p-4 text-text-color">
-                    <div>
-                      <span>
-                        Fraustrated at having to complete many fields/forms and
-                        provide lots of information
-                      </span>
-                    </div>
-                  </td>
-                  <td class="w-2/6 border border-black p-4 text-text-color">
-                    <div>
-                      <span>Happy to recieve payment</span>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="w-2/6 border border-black p-4 font-bold">
-                    Improvement Opportunities
-                  </td>
-                  <td class="w-1/6 border border-black p-4 text-text-color">
-                    {" "}
-                    <div className="flex flex-col">
-                      <span>
-                        Create a dedicated payment app that caters for Atul's
-                        need.
-                      </span>
-                      <span>Introduce biometric verification</span>
-                    </div>
-                  </td>
-                  <td class="w-1/6 border border-black p-4 text-text-color">
-                    <div className="flex flex-col">
-                      <span>Provide search filters</span>
-                      <span>Structure the transactions</span>
-                      <span>Optimize app for screen reader technologies</span>
-                    </div>
-                  </td>
-                  <td class="w-1/6 border border-black p-4 text-text-color">
-                    <div className="flex flex-col">
-                      <span>Provide a simple payment flow</span>
-                    </div>
-                  </td>
-                  <td class="w-1/6 border border-black p-4 text-text-color">
-                    {" "}
-                    <div className="flex flex-col">
-                      <span>
-                        Provide an option to review submitted information
-                      </span>
-                    </div>
-                  </td>
-                  <td class="w-1/6 border border-black p-4 text-text-color">
-                    {" "}
-                    <div className="flex flex-col">
-                      <span>Include a loyalty program</span>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <div className="hidden lg:block">
+              <table class="table-fixed border border-collapse border-black lg:w-full  ">
+                <thead>
+                  <tr>
+                    <th class="w-1/6 border border-black p-4">Action</th>
+                    <th class="w-1/6 border border-black p-4 text-text-color">
+                      Select a payment app
+                    </th>
+                    <th class="w-1/6 border border-black p-4 text-text-color">
+                      Browse the features
+                    </th>
+                    <th class="w-1/6 border border-black p-4 text-text-color">
+                      Decide on a transaction
+                    </th>
+                    <th class="w-1/6 border border-black p-4 text-text-color">
+                      Complete a transaction
+                    </th>
+                    <th class="w-1/6 border border-black p-4 text-text-color">
+                      Receive advice
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="w-1/6 border border-black p-4 font-bold">
+                      Task List
+                    </td>
+                    <td class="w-2/6 border border-black p-4">
+                      <div className=" flex flex-col text-text-color">
+                        <span className="pb-2">Tasks</span>
+                        <span>A. Decide on a payment method</span>
+                        <span>
+                          B. Search for payment apps via the stores or browser
+                        </span>
+                        <span>
+                          C. Check security review and select a payment app
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4">
+                      <div className=" flex flex-col text-text-color">
+                        <span className="pb-2">Tasks</span>
+                        <span className="mt-12">
+                          A. Browse online or the stores
+                        </span>
+                        <span>
+                          B. Download the application via the stores/access
+                          online
+                        </span>
+                        <span>C. View features</span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4">
+                      <div className=" flex flex-col text-text-color">
+                        <span className="pb-2">Tasks</span>
+                        <span className="mt-12">
+                          A. Provide payment information
+                        </span>
+                        <span>B. Choose transaction type</span>
+                        <span>C. Submit beneficiary details</span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4">
+                      {" "}
+                      <div className=" flex flex-col text-text-color">
+                        <span className="pb-2">Tasks</span>
+                        <span className="mt-16">A. View Charges/fees</span>
+                        <span className="mb-10">
+                          B. Confirm payment details
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4">
+                      <div className=" flex flex-col text-text-color">
+                        <span className="pb-2">Tasks</span>
+                        <span className="mt-20">A. View payment status</span>
+                        <span>
+                          B. Notification of the status of the payment
+                        </span>
+                        <span>C. View payment device</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/6 border border-black p-4 font-bold">
+                      Emotions
+                    </td>
+                    <td class="w-2/6 border border-black p-4 text-text-color">
+                      <div>
+                        <span>Overwhelmed by number of payment options</span>
+                        <span>Excited to find one they like</span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4 text-text-color">
+                      <div>
+                        <span>
+                          Annoyed at large amount of texts with tiny font sizes
+                          and limited visuals{" "}
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4 text-text-color">
+                      <div>
+                        <span>
+                          Dissatisfied with scrolling to find appropriate
+                          function
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4 text-text-color">
+                      <div>
+                        <span>
+                          Fraustrated at having to complete many fields/forms
+                          and provide lots of information
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-2/6 border border-black p-4 text-text-color">
+                      <div>
+                        <span>Happy to recieve payment</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="w-2/6 border border-black p-4 font-bold">
+                      Improvement Opportunities
+                    </td>
+                    <td class="w-1/6 border border-black p-4 text-text-color">
+                      {" "}
+                      <div className="flex flex-col">
+                        <span>
+                          Create a dedicated payment app that caters for Atul's
+                          need.
+                        </span>
+                        <span>Introduce biometric verification</span>
+                      </div>
+                    </td>
+                    <td class="w-1/6 border border-black p-4 text-text-color">
+                      <div className="flex flex-col">
+                        <span>Provide search filters</span>
+                        <span>Structure the transactions</span>
+                        <span>Optimize app for screen reader technologies</span>
+                      </div>
+                    </td>
+                    <td class="w-1/6 border border-black p-4 text-text-color">
+                      <div className="flex flex-col">
+                        <span>Provide a simple payment flow</span>
+                      </div>
+                    </td>
+                    <td class="w-1/6 border border-black p-4 text-text-color">
+                      {" "}
+                      <div className="flex flex-col">
+                        <span>
+                          Provide an option to review submitted information
+                        </span>
+                      </div>
+                    </td>
+                    <td class="w-1/6 border border-black p-4 text-text-color">
+                      {" "}
+                      <div className="flex flex-col">
+                        <span>Include a loyalty program</span>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <div></div>
         </div>
       </div>
 
@@ -502,7 +521,7 @@ const FirstProjectPage = () => {
               features and their functionalities.
             </p>
           </div>
-          <div className="ml-32">
+          <div className="lg:ml-32 pr-4 lg:pr-0">
             <img src={HandDrawn} alt="sec" />
           </div>
         </div>
@@ -519,15 +538,25 @@ const FirstProjectPage = () => {
             </p>
           </div>
           <div className=" flex items-center justify-center">
-            <div className="flex flex-row w-80 mt-80">
+            <div className="text-text-color flex-row text-center sm:text-left hidden sm:flex w-80 mt-80">
               <span className="flex items-center justify-center text-text-color">
                 Users desired a quick access to the frequently used menus.
               </span>
-              <BsArrowRight size={80} className="text-text-color" />
+              <BsArrowRight
+                size={80}
+                className="text-text-color inline-block mt-2"
+              />
             </div>
-            <img src={Digital} alt="sec" className="w-80 h-100" />
-            <div className="flex flex-row w-80 mb-80">
-              <BsArrowLeft size={100} className="text-text-color" />
+            <img
+              src={Digital}
+              alt="sec"
+              className="lg:w-80 lg:h-100 border-text-color"
+            />
+            <div className="text-text-color flex-row text-center sm:text-left hidden sm:flex w-80 mb-80">
+              <BsArrowLeft
+                size={100}
+                className="text-text-color inline-block mb-2"
+              />
               <span className="text-text-color flex items-center justify-center">
                 Tips on savings and managing finances to empower users to take
                 charge of their finances.{" "}
@@ -569,12 +598,12 @@ const FirstProjectPage = () => {
           </p>
         </div>
         <div className=" flex items-center justify-center pt-8">
-          <div className="flex flex-row gap-8">
+          <div className="flex flex-col lg:flex-row gap-8">
             <div>
               <h2 className="text-xl pb-4 font-bold text-text-color">
                 Round 1 findings
               </h2>
-              <div className="flex flex-row gap-4  px-8 py-4">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   1
                 </div>
@@ -582,7 +611,7 @@ const FirstProjectPage = () => {
                   Quick access to the menu.
                 </span>
               </div>
-              <div className="flex flex-row gap-4  px-8 py-4">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   2
                 </div>
@@ -590,7 +619,7 @@ const FirstProjectPage = () => {
                   Menu of functionalities.
                 </span>
               </div>
-              <div className="flex flex-row gap-4  px-8 py-4">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   3
                 </div>
@@ -604,7 +633,7 @@ const FirstProjectPage = () => {
               <h2 className="text-xl text-text-color pb-4 font-bold">
                 Round 2 findings
               </h2>
-              <div className="flex flex-row gap-4  px-8 py-4">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   1
                 </div>
@@ -612,7 +641,7 @@ const FirstProjectPage = () => {
                   Group similar functions together.
                 </span>
               </div>
-              <div className="flex flex-row gap-4  px-8 py-4">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   2
                 </div>
@@ -620,7 +649,7 @@ const FirstProjectPage = () => {
                   Reword texts for users to easily understand.
                 </span>
               </div>
-              <div className="flex flex-row gap-4  px-8 py-4">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
                 <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-2xl">
                   3
                 </div>
@@ -649,18 +678,28 @@ const FirstProjectPage = () => {
               services together.
             </p>
           </div>
-          <div className="ml-24">
-            <div className="flex flex-row ml-8">
+          <div className="mr-4 lg:ml-24">
+            <div className="flex flex-col lg:flex-row ml-8">
               <div>
                 <span className="">Before usability study</span>
                 <div className="flex flex-row gap-4">
-                  <img src={Digital} alt="sec" className="pt-8 w-2/3" />
+                  <img
+                    src={Digital}
+                    alt="sec"
+                    className="pt-8 w-3/3 lg:w-2/3"
+                  />
                   <BsArrowRight size={60} className="text-text-color mt-80" />
                 </div>
               </div>
               <div>
-                <span className="text-text-color">After usability study</span>
-                <img src={HeroImage2} alt="sec" className="pt-8 w-2/3" />
+                <span className="text-text-color flex pl-4 mt-4 lg:mt-0">
+                  After usability study
+                </span>
+                <img
+                  src={HeroImage2}
+                  alt="sec"
+                  className="pt-8 lg:pt-16 lg:w-2/3 w-3/3"
+                />
               </div>
             </div>
           </div>
@@ -679,20 +718,24 @@ const FirstProjectPage = () => {
             guidelines.
           </p>
         </div>
-        <div className="ml-24">
-          <div className="flex flex-row ml-8">
-            <div className=" w-1/2">
+        <div className="mr-4 lg:ml-24">
+          <div className="flex flex-col lg:flex-row ml-8">
+            <div>
               <span className="">Before usability study</span>
-              <div className="flex flex-row gap-16">
-                <img src={Before} alt="sec" className="pt-8 w-2/3" />
+              <div className="flex flex-row gap-4">
+                <img src={Before} alt="sec" className="pt-8 w-3/3 lg:w-2/3" />
                 <BsArrowRight size={60} className="text-text-color mt-80" />
               </div>
             </div>
-            <div className=" w-1/2 flex flex-col">
-              <span className="text-text-color pl-4 pt-2">
+            <div>
+              <span className="text-text-color flex pl-4 mt-4 lg:mt-0">
                 After usability study
               </span>
-              <img src={After} alt="sec" className="pt-16 w-2/3" />
+              <img
+                src={After}
+                alt="sec"
+                className="pt-8 lg:pt-16 lg:w-2/3 w-3/3"
+              />
             </div>
           </div>
         </div>
@@ -702,7 +745,7 @@ const FirstProjectPage = () => {
         <h2 className="text-3xl text-text-color pb-8 flex items-center justify-center">
           Mockups
         </h2>
-        <div className="flex flex-row">
+        <div className="flex flex-col lg:flex-row">
           <div className="flex flex-wrap">
             <img src={HeroImage1} alt="sec" className="w-1/2  p-2" />
             <img src={HeroImage3} alt="sec" className="w-1/2  p-2" />
@@ -727,7 +770,7 @@ const FirstProjectPage = () => {
             </p>
 
             <div className="flex items-center justify-center">
-              <img src={Highfi} alt="sec" />
+              <img src={Highfi} alt="sec" className="mb-8 h-36" />
             </div>
             <br />
           </div>
@@ -735,10 +778,10 @@ const FirstProjectPage = () => {
       </div>
 
       <div className="flex flex-col pt-12">
-        <h1 className="text-3xl flex items-center justify-center text-text-color pt-4 pb-16">
+        <h1 className="text-3xl flex items-center justify-center text-text-color pt-4 pb-16 ml-8 lg:ml-0">
           Accessibility Considerations{" "}
         </h1>
-        <div className="flex flex-row ml-20 gap-16">
+        <div className="flex flex-col lg:flex-row ml-4 lg:ml-20 gap-16">
           <div className="flex flex-col">
             <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
               1
@@ -778,8 +821,8 @@ const FirstProjectPage = () => {
           Takeaways
         </span>
 
-        <div className="flex flex-row">
-          <div className="w-1/2 pr-8">
+        <div className="flex flex-col lg:flex-row">
+          <div className="lg:w-1/2 pr-8">
             <br />
             <p className="text-text-color text-justify text-lg leading-relaxed">
               <b className="text-xl">Impact:</b>Users shared that the app design
@@ -788,7 +831,7 @@ const FirstProjectPage = () => {
               navigate as a first time user.
             </p>
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2">
             <br />
             <p className="text-text-color text-justify text-lg leading-relaxed">
               <b className="text-xl">What I learned:</b>I learned that even
@@ -805,7 +848,7 @@ const FirstProjectPage = () => {
         <h1 className="text-3xl text-text-color flex items-center justify-center pt-4 pb-16">
           Next steps{" "}
         </h1>
-        <div className="flex flex-row ml-20 gap-16">
+        <div className="flex flex-col lg:flex-row ml-12 lg:ml-20 gap-16">
           <div className="flex flex-col">
             <span className=" w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
               1

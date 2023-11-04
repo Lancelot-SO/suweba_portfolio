@@ -22,7 +22,7 @@ function About() {
       items-center justify-center h-full px-4 md:flex-row py-5"
       >
         {/* Image */}
-        <div className="mt-12 ml-12 md:mt-16 lg:mt-24 xl:mt-20 mb-16">
+        <div className="mt-24 ml-8 md:mt-16 lg:mt-24 xl:mt-20 mb-12">
           <div className="w-60 h-60 md:w-48 md:h-48 lg:w-66 lg:h-66 xl:w-62 xl:h-62 rounded-full overflow-hidden">
             <img
               src={HeroImage}
