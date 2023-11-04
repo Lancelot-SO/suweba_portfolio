@@ -719,11 +719,11 @@ const FirstProjectPage = () => {
           </p>
         </div>
         <div className="mr-4 lg:ml-24">
-          <div className="flex flex-col lg:flex-row ml-8">
+          <div className="flex flex-col lg:flex-row ml-8 lg:gap-24">
             <div>
               <span className="">Before usability study</span>
               <div className="flex flex-row gap-4">
-                <img src={Before} alt="sec" className="pt-8 w-3/3 lg:w-2/3" />
+                <img src={Before} alt="sec" className="pt-8 w-3/3 lg:w-3/3" />
                 <BsArrowRight size={60} className="text-text-color mt-80" />
               </div>
             </div>
@@ -732,7 +732,7 @@ const FirstProjectPage = () => {
                 After usability study
               </span>
               <img
-                src={After}
+                src={HeroImage2}
                 alt="sec"
                 className="pt-8 lg:pt-16 lg:w-2/3 w-3/3"
               />
@@ -770,7 +770,7 @@ const FirstProjectPage = () => {
             </p>
 
             <div className="flex items-center justify-center">
-              <img src={Highfi} alt="sec" className="mb-8 h-36" />
+              <img src={Highfi} alt="sec" className="mb-8 h-60 lg:h-full" />
             </div>
             <br />
           </div>
