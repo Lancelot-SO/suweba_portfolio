@@ -20,8 +20,8 @@ import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 const thirdProjectPage = () => {
   return (
-    <div className="w-full py-4 px-12">
-      <h1 className="text-4xl font-bold text-text-color py-20">
+    <div className="w-full py-4 lg:px-12">
+      <h1 className="text-4xl px-4 lg:px-0 font-bold text-text-color py-20">
         Designing A Mobile Data Collection App for A Seamless User Experience
       </h1>
 
@@ -32,18 +32,18 @@ const thirdProjectPage = () => {
               Project Overview
             </h1>
             <div>
-              <h2 className="pb-4 text-xl text-text-color font-bold">
+              <h2 className="px-4 lg:px-0 pb-4 text-xl text-text-color font-bold">
                 Data Collection App
               </h2>
-              <p className="pb-4 text-text-color text-justify text-lg leading-relaxed">
+              <p className="pb-4 text-text-color text-justify text-lg leading-relaxed px-4 lg:px-0">
                 The data collection app allows the gathering of data on farmers
                 to make well informed decisions and make allocation of resources
                 and strategic planning. The design of the data collection app is
                 to provide a user-friendly experience and simplifies the data
                 collection process.
               </p>
-              <span className="text-text-color">
-                <b className="text-xl">Project duration:</b>
+              <span className="text-text-color px-4 lg:px-0">
+                <b className="text-xl ">Project duration:</b>
                 <br></br>
                 August 2023 - October 2023.
               </span>
@@ -57,8 +57,8 @@ const thirdProjectPage = () => {
         </div>
       </div>
 
-      <div className="flex pt-20">
-        <div className="w-1/2 pr-8">
+      <div className="flex flex-col lg:flex-row xl:flex-row pt-20 px-4 lg:px-0">
+        <div className="lg:w-1/2 pr-8">
           <p className="text-text-color font-bold pt-4 text-xl">The problem:</p>
           <br />
           <p className="text-justify text-text-color text-lg leading-relaxed">
@@ -67,7 +67,7 @@ const thirdProjectPage = () => {
             This leads to frustration, inaccurate or potentially loss of data.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           <p className="text-xl text-text-color font-bold pt-4">The goal:</p>
           <br />
           <p className="text-justify text-text-color text-lg leading-relaxed">
@@ -77,20 +77,20 @@ const thirdProjectPage = () => {
         </div>
       </div>
 
-      <div className="flex pt-20">
-        <div className="w-1/2 pr-8">
+      <div className="flex flex-col lg:flex-row xl:flex-row pt-20 px-4 lg:px-0">
+        <div className="lg:w-1/2 pr-8">
           <p className="text-text-color font-bold pt-4 text-xl">My role:</p>
           <br />
           <p className="text-justify text-text-color text-lg leading-relaxed">
             UX designer and UX researcher,
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           <p className="text-text-color font-bold pt-4 text-xl">
             Responsibilities:
           </p>
           <br />
-          <p className="text-justify text-lg leading-relaxed">
+          <p className="text-justify text-lg leading-relaxed px-2 lg:px-0">
             <ul className="list-disc text-text-color">
               <li>
                 Designed the visual elements of the interface, including
@@ -143,7 +143,7 @@ const thirdProjectPage = () => {
           </h2>
           <div className="">
             <div className="">
-              <p className="text-justify text-text-color text-lg leading-relaxed py-12 px-12">
+              <p className="text-justify text-text-color text-lg leading-relaxed py-12 px-4 lg:px-0">
                 The purpose of this user research study was to gain insights
                 into the usability and effectiveness of a mobile data collection
                 app designed to collect data on farmers The goal was to
@@ -162,12 +162,12 @@ const thirdProjectPage = () => {
         <h1 className="text-3xl flex justify-center items-center text-text-color pt-4 pb-16">
           User Research: Pain Points
         </h1>
-        <div className="flex flex-row gap-8">
+        <div className="flex flex-col ml-10 lg:ml-0 lg:flex-row gap-8 px-4 lg:px-0">
           <div className="flex flex-col">
-            <span className=" w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
+            <span className=" w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl lg:ml-8 ml-24">
               1
             </span>
-            <p className="text-xl leading-relaxed pb-4 text-text-color font-bold">
+            <p className="lg:ml-0 ml-24 text-xl leading-relaxed pb-4 text-text-color font-bold">
               Pain point
             </p>
             <p className="text-lg leading-relaxed">
@@ -175,10 +175,10 @@ const thirdProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
+            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl lg:ml-8 ml-24">
               2
             </span>
-            <p className="text-xl leading-relaxed pb-4 text-text-color font-bold">
+            <p className="lg:ml-0 ml-24  text-xl leading-relaxed pb-4 text-text-color font-bold">
               Pain point
             </p>
             <p className="text-lg leading-relaxed">
@@ -187,10 +187,10 @@ const thirdProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
+            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl lg:ml-8 ml-24">
               3
             </span>
-            <p className="text-xl leading-relaxed pb-4 text-text-color font-bold">
+            <p className="lg:ml-0 ml-24 text-xl leading-relaxed pb-4 text-text-color font-bold">
               Pain point
             </p>
             <p className="text-lg leading-relaxed">
@@ -198,10 +198,10 @@ const thirdProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl ml-8">
+            <span className="w-10 h-10 text-text-color font-bold flex items-center justify-center rounded-full mb-4 text-2xl lg:ml-8 ml-24">
               4
             </span>
-            <p className="text-xl text-justify text-md leading-relaxed pb-4 text-text-color font-bold">
+            <p className="text-xl text-justify text-md leading-relaxed pb-4 text-text-color font-bold lg:ml-0 ml-24">
               Pain point
             </p>
             <p className="text-justify text-md leading-relaxed">
@@ -213,8 +213,8 @@ const thirdProjectPage = () => {
         </div>
       </div>
 
-      <div className="flex flex-row pt-20">
-        <div className="w-1/3 pr-8">
+      <div className="flex flex-col lg:flex-row pt-20 px-4 lg:px-0">
+        <div className="lg:w-1/3 pr-8">
           <h1 className="text-2xl flex flex-row gap-4 text-text-color pt-4 pb-16">
             Persona: <span className="text-text-color font-bold">Abigail</span>
           </h1>
@@ -230,10 +230,10 @@ const thirdProjectPage = () => {
             solution for accurate registrations.
           </p>
         </div>
-        <div class="w-2/3 p-4">
+        <div class="lg:w-2/3 p-4 flex flex-col lg:flex-row">
           <div class="flex items-start flex-col">
             <div className="flex flex-col">
-              <div class="mr-4 flex items-center">
+              <div class="mr-4 flex items-center flex-col lg:flex-row">
                 <div className="p-2">
                   <img src={Persona} alt="sec" className=" w-40 h-30" />
                 </div>
@@ -266,7 +266,7 @@ const thirdProjectPage = () => {
               </table>
             </div>
 
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-col lg:flex-row gap-4">
               <div>
                 <span className="text-text-color font-bold">Goals:</span>
                 <ul className="list-disc ml-8 text-text-color">
@@ -302,8 +302,8 @@ const thirdProjectPage = () => {
         </div>
       </div>
 
-      <div className="flex flex-row pt-20">
-        <div className="w-1/3 pr-8">
+      <div className="flex flex-col lg:flex-row pt-20 px-4 lg:px-0">
+        <div className="lg:w-1/3 pr-8">
           <h1 className="text-2xl flex flex-row gap-4  text-text-color pt-4 pb-16">
             Persona: <span className="text-text-color font-bold">Manu</span>
           </h1>
@@ -318,10 +318,10 @@ const thirdProjectPage = () => {
             and values simplicity and ease of use over advanced features.
           </p>
         </div>
-        <div class="w-2/3 p-4">
+        <div class="lg:w-2/3 p-4 flex flex-col lg:flex-row">
           <div class="flex items-start flex-col">
             <div className="flex flex-col">
-              <div class="mr-4 flex items-center">
+              <div class="mr-4 flex items-center flex-col lg:flex-row">
                 <div className=" p-2">
                   <img src={Persona1} alt="sec" className=" w-40 h-30" />
                 </div>
@@ -354,7 +354,7 @@ const thirdProjectPage = () => {
               </table>
             </div>
 
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-col lg:flex-row gap-4">
               <div>
                 <span className="text-text-color font-bold">Goals:</span>
                 <ul className="list-disc ml-8 text-text-color">
@@ -385,7 +385,7 @@ const thirdProjectPage = () => {
                 </ul>
               </div>
             </div>
-            <div class="border border-text-color mx-auto my-12">
+            <div class="border border-text-color mx-auto my-8 lg:my-12">
               <p className="p-4 text-text-color">
                 Manu, a newly recruited agent, is struggling with the existing
                 platform used for farmer registration in the data subsidization
@@ -404,7 +404,7 @@ const thirdProjectPage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col pt-20">
+      <div className="flex flex-col pt-20 px-4 lg:px-0">
         <h1 className="text-3xl flex items-center justify-center text-text-color pt-20 pb-8">
           User journey map
         </h1>
@@ -423,31 +423,52 @@ const thirdProjectPage = () => {
         <h2 className="text-3xl flex items-center justify-center text-text-color py-12">
           Paper wireframes
         </h2>
-        <img src={sketch} alt="sketch" />
+        <img src={sketch} alt="sketch" className="px-4 lg:px-0" />
       </div>
 
       <div className="flex flex-col pt-20">
         <div className="flex flex-col">
           <div className="pr-8">
-            <h2 className="text-3xl flex items-center justify-center text-text-color pb-20">
+            <h2 className="text-3xl flex items-center justify-center text-text-color pb-4">
               Digital wireframes
             </h2>
           </div>
-          <div className="flex items-center justify-center">
-            <div className="flex flex-row w-80 mt-80">
-              <span className="text-text-color">
-                Users desired to have access to quick support when challenges
-                occurred.{" "}
-              </span>
-              <BsArrowRight size={80} className="text-text-color" />
-            </div>
-            <img src={Digital} alt="sec" className="w-80 h-100" />
-            <div className="flex flex-row w-80 mb-80 gap-4">
-              <BsArrowLeft size={100} className="text-text-color" />
-              <span className="text-text-color">
-                Notice of synced and unsynced data when offline to inform users
-                of the status of the registration process.{" "}
-              </span>
+          <div className="flex flex-col pt-20">
+            <div className="flex flex-col">
+              <div className="pr-8">
+                <p className="text-justify text-lg text-text-color leading-relaxed pb-8">
+                  Users desired an overview of the subjects and the instructors
+                  teaching the subjects.
+                </p>
+              </div>
+              <div className="flex items-center justify-center">
+                <div className="text-text-color flex-row text-center sm:text-left hidden sm:flex">
+                  <span className="text-text-color">
+                    Tips on the various finance subjects a learner can enroll in
+                  </span>
+                  <BsArrowRight
+                    size={80}
+                    className="text-text-color inline-block mt-2"
+                  />
+                </div>
+
+                <img
+                  src={Digital}
+                  alt="sec"
+                  className="lg:w-80 lg:h-100 border-text-color px-4 lg:px-0"
+                />
+
+                <div className="text-text-color flex-row text-center sm:text-left hidden sm:flex">
+                  <BsArrowLeft
+                    size={80}
+                    className="text-text-color inline-block mb-2"
+                  />
+                  <span className="text-text-color">
+                    Information on the instructors to provide learners with
+                    information to make a decision before enrolling in a course.
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -467,40 +488,40 @@ const thirdProjectPage = () => {
         <img src={prototype} alt="sketch" />
       </div>
 
-      <div className="flex flex-col pt-20">
+      <div className="flex flex-col pt-20 ">
         <div className="pr-8 pb-8">
           <h2 className="text-3xl flex items-center justify-center text-text-color ">
             Usability Study : Findings
           </h2>
-          <p className="text-justify text-lg leading-relaxed py-12 text-text-color">
+          <p className="px-4 lg:px-0 text-justify text-lg leading-relaxed py-12 text-text-color">
             Write a short introduction to the usability studies you conducted
             and your findings.
           </p>
         </div>
-        <div className=" flex items-center justify-center pt-8">
-          <div className="flex flex-row gap-8">
+        <div className=" flex items-center justify-center pt-8 px-4 lg:px-0">
+          <div className="flex flex-col lg:flex-row gap-8">
             <div>
-              <h2 className="text-xl text-text-color pb-4 font-bold">
+              <h2 className="text-xl text-text-color pb-4 font-bold ml-16 lg:ml-0">
                 Round 1 findings
               </h2>
-              <div className="flex flex-row gap-4  px-8 py-4">
-                <div className="flex text-text-color w-10 h-10 items-center justify-center rounded-full font-bold text-xl">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
+                <div className="flex text-text-color w-10 h-10 items-center justify-center rounded-full font-bold text-xl ml-16 lg:ml-0">
                   1
                 </div>
                 <span className="flex items-center text-text-color pr-20">
                   Simplify the process.
                 </span>
               </div>
-              <div className="flex flex-row gap-4  px-8 py-4">
-                <div className="flex text-text-color w-10 h-10 items-center justify-center rounded-full font-bold text-xl">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
+                <div className="flex text-text-color w-10 h-10 items-center justify-center rounded-full font-bold text-xl ml-16 lg:ml-0">
                   2
                 </div>
                 <span className="flex items-center text-text-color pr-20">
                   A notice to indicate offline and online mode.
                 </span>
               </div>
-              <div className="flex flex-row gap-4 px-8 py-4">
-                <div className="flex text-text-color w-10 h-10 items-center justify-center rounded-full font-bold text-xl">
+              <div className="flex flex-col lg:flex-row gap-4 px-8 py-4">
+                <div className="flex text-text-color w-10 h-10 items-center justify-center rounded-full font-bold text-xl ml-16 lg:ml-0">
                   3
                 </div>
                 <span className="flex items-center text-text-color pr-20">
@@ -510,27 +531,27 @@ const thirdProjectPage = () => {
             </div>
 
             <div>
-              <h2 className="text-xl text-text-color pb-4 font-bold">
+              <h2 className="text-xl text-text-color pb-4 font-bold ml-16 lg:ml-0">
                 Round 2 findings
               </h2>
-              <div className="flex flex-row gap-4  px-8 py-4">
-                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-xl">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
+                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-xl ml-16 lg:ml-0">
                   1
                 </div>
                 <span className="flex items-center text-text-color pr-20">
                   Indicate the file size for photo id during upload.
                 </span>
               </div>
-              <div className="flex flex-row gap-4  px-8 py-4">
-                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-xl">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
+                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-xl ml-16 lg:ml-0">
                   2
                 </div>
                 <span className="flex items-center  pr-20">
                   Reword texts for users to easily understand.{" "}
                 </span>
               </div>
-              <div className="flex flex-row gap-4  px-8 py-4">
-                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-xl">
+              <div className="flex flex-col lg:flex-row gap-4  px-8 py-4">
+                <div className="flex  w-10 h-10 items-center justify-center rounded-full text-text-color font-bold text-xl ml-16 lg:ml-0">
                   3
                 </div>
                 <span className="flex items-center text-text-color pr-20">
@@ -551,27 +572,30 @@ const thirdProjectPage = () => {
             <h2 className="text-3xl flex items-center justify-center text-text-color pt-20 pb-8">
               Mockups
             </h2>
-            <p className="text-text-color text-justify text-lg leading-relaxed py-12">
+            <p className="text-text-color px-4 lg:px-0 text-justify text-lg leading-relaxed py-12">
               Users perceived the groupings of the services to perform similar
               functions. This was considered and the services were grouped into
               two categories to simplify the complexity of grouping all the
               services together.
             </p>
           </div>
-          <div className="ml-24">
-            <div className="flex flex-row ml-8">
-              <div className=" w-1/2 ">
+          <div className="ml-2 lg:ml-24">
+            <div className="flex flex-col lg:flex-row ml-8">
+              <div className=" lg:w-1/2 ">
                 <span className="">Before usability study</span>
                 <div className="flex flex-row gap-16">
                   <img src={usability1} alt="sec" className="pt-8 w-2/3" />
-                  <BsArrowRight size={60} className="text-text-color mt-80" />
+                  <BsArrowRight
+                    size={60}
+                    className="text-text-color mt-80 hidden lg:flex"
+                  />
                 </div>
               </div>
-              <div className=" w-1/2 flex flex-col ">
-                <span className="text-text-color pl-4 pt-2">
+              <div className=" lg:w-1/2 flex flex-col ">
+                <span className="text-text-color pl-4 lg:pt-2 pt-8">
                   After usability study
                 </span>
-                <img src={after1} alt="sec" className="pt-16 w-2/3" />
+                <img src={after1} alt="sec" className="lg:pt-16 pt-8  w-2/3" />
               </div>
             </div>
           </div>
@@ -583,27 +607,30 @@ const thirdProjectPage = () => {
           <h2 className="text-3xl flex items-center justify-center text-text-color pt-20 pb-12">
             Mockups
           </h2>
-          <p className="text-text-color text-justify text-lg leading-relaxed py-12">
+          <p className="text-text-color px-4 lg:px-0 text-justify text-lg leading-relaxed py-12">
             The text and headers had the same visual colours. Users did not know
             where to place emphasis. Colours were applied to the headers to show
             emphasis.A button to sync all information collected offline was
             introduced to shorten the process time.
           </p>
         </div>
-        <div className="ml-24">
-          <div className="flex flex-row ml-8">
-            <div className=" w-1/2 ">
+        <div className="ml-2 lg:ml-24">
+          <div className="flex flex-col lg:flex-row ml-8">
+            <div className=" lg:w-1/2 ">
               <span className="">Before usability study</span>
               <div className="flex flex-row gap-16">
                 <img src={usability2} alt="sec" className="pt-8 w-2/3" />
-                <BsArrowRight size={60} className="text-text-color mt-80" />
+                <BsArrowRight
+                  size={60}
+                  className="text-text-color mt-80 hidden lg:flex"
+                />
               </div>
             </div>
-            <div className=" w-1/2 flex flex-col ">
-              <span className="text-text-color pl-4 pt-2">
+            <div className=" lg:w-1/2 flex flex-col ">
+              <span className="text-text-color pl-4 lg:pt-2 pt-6">
                 After usability study
               </span>
-              <img src={after2} alt="sec" className="pt-16 w-2/3" />
+              <img src={after2} alt="sec" className="lg:pt-16 pt-8 w-2/3" />
             </div>
           </div>
         </div>
@@ -613,7 +640,7 @@ const thirdProjectPage = () => {
         <h2 className="text-3xl text-text-color pb-8 flex items-center justify-center">
           Mockups
         </h2>
-        <div className="flex flex-row">
+        <div className="flex flex-col lg:flex-row px-4 lg:px-0">
           <div className="flex flex-wrap">
             <img src={mock1} alt="sec" className="w-1/2  p-2" />
             <img src={mock2} alt="sec" className="w-1/2  p-2" />
@@ -629,7 +656,7 @@ const thirdProjectPage = () => {
         <h2 className="text-3xl flex items-center justify-center text-text-color py-12">
           High-fidelity Prototype
         </h2>
-        <p className="text-justify text-md leading-relaxed py-4 text-text-color">
+        <p className="px-4 lg:px-0 text-justify text-md leading-relaxed py-4 text-text-color">
           The high fidelity prototype followed the same user flow as the low
           fidelity prototype including design changes made after the usability
           studies.
@@ -638,11 +665,11 @@ const thirdProjectPage = () => {
         <img src={prototype1} alt="sketch" />
       </div>
 
-      <div className="flex flex-col pt-20">
+      <div className="flex flex-col pt-20 ">
         <h1 className="text-3xl flex items-center justify-center text-text-color pt-4 pb-16">
           Accessibility Considerations{" "}
         </h1>
-        <div className="flex flex-row ml-20 gap-16">
+        <div className="flex  flex-col lg:flex-row ml-20 gap-16">
           <div className="flex flex-col">
             <span className=" w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl font-bold ml-16">
               1
@@ -682,8 +709,8 @@ const thirdProjectPage = () => {
           Takeaways
         </span>
 
-        <div className="flex flex-row">
-          <div className="w-1/2 pr-8">
+        <div className="flex px-4 lg:px-0 flex-col lg:flex-row">
+          <div className="lg:w-1/2 pr-8">
             <br />
             <p className="text-text-color text-justify text-lg leading-relaxed">
               <b>Impact:</b> Users shared that the app design was clean,
@@ -692,7 +719,7 @@ const thirdProjectPage = () => {
               a first time user.
             </p>
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2">
             <br />
             <p className="text-text-color text-justify text-lg leading-relaxed">
               <b>What I learned:</b> I learned that even though the problem i
@@ -708,9 +735,9 @@ const thirdProjectPage = () => {
         <h1 className="text-3xl text-text-color flex items-center justify-center pt-4 pb-16">
           Next steps{" "}
         </h1>
-        <div className="flex flex-row ml-20 gap-16">
+        <div className="flex px-4 lg:px-0 flex-col lg:flex-row lg:ml-20 mx-4 gap-16">
           <div className="flex flex-col">
-            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
+            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-28 lg:ml-16">
               1
             </span>
 
@@ -720,7 +747,7 @@ const thirdProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
+            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-28 lg:ml-16">
               2
             </span>
 
@@ -729,7 +756,7 @@ const thirdProjectPage = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-16">
+            <span className="font-bold w-10 h-10 text-text-color flex items-center justify-center rounded-full mb-4 text-2xl ml-28 lg:ml-16">
               3
             </span>
             <p className="text-text-color text-lg leading-relaxed">
