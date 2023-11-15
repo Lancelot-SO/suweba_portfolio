@@ -10,6 +10,7 @@ export default {
     },
     fontFamily: {
       signature: ["Great Vibes"],
+      logoName: ["Libre Caslon Display"],
     },
   },
   plugins: [],

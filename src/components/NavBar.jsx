@@ -47,7 +47,7 @@ function NavBar() {
             alt="logo"
           />
 
-          <h1 className="flex items-center justify-center text-custom-blue text-3xl font-bold pt-2">
+          <h1 className="flex items-center justify-center text-custom-blue text-3xl font-logoName font-bold pt-2">
             Sidiki Alare
           </h1>
         </a>
